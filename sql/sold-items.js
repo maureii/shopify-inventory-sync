@@ -5,8 +5,7 @@ export const GET_SOLD_ITEMS = `
   Entries AS (
     SELECT
       e.StoreID,
-      e.ItemCode,
-      e.Quantity
+      e.ItemCode
     FROM dbo.Entries e
     CROSS JOIN Today t
     WHERE TRY_CAST(e.ItemCode AS INT) > 1000
@@ -17,7 +16,7 @@ export const GET_SOLD_ITEMS = `
   SELECT
     StoreID,
     ItemCode,
-    SUM(Quantity) AS SoldCount
+    COUNT(*) AS SoldCount
   FROM Entries
   GROUP BY
     StoreID,
