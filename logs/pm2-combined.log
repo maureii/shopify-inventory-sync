@@ -1,0 +1,1606 @@
+2026-09-09T14:33:37: Starting inventory sync sequence...
+2026-09-09T14:33:37: ==================================================
+2026-09-09T14:33:37: 
+2026-09-09T14:33:37: [1/7] Running: node --env-file=.env ./fetch/shopify.js
+2026-09-09T14:33:37: [Fetching] Shopify products...
+2026-09-09T14:33:39: [BATCH 1] +250 | Total: 250
+2026-09-09T14:33:42: [BATCH 2] +250 | Total: 500
+2026-09-09T14:33:44: [BATCH 3] +250 | Total: 750
+2026-09-09T14:33:46: [BATCH 4] +250 | Total: 1000
+2026-09-09T14:33:48: [BATCH 5] +250 | Total: 1250
+2026-09-09T14:33:51: [BATCH 6] +250 | Total: 1500
+2026-09-09T14:33:53: [BATCH 7] +250 | Total: 1750
+2026-09-09T14:33:55: [BATCH 8] +250 | Total: 2000
+2026-09-09T14:33:58: [BATCH 9] +250 | Total: 2250
+2026-09-09T14:34:00: [BATCH 10] +250 | Total: 2500
+2026-09-09T14:34:02: [BATCH 11] +250 | Total: 2750
+2026-09-09T14:34:04: [BATCH 12] +250 | Total: 3000
+2026-09-09T14:34:05: [BATCH 13] +124 | Total: 3124
+2026-09-09T14:34:05: [SUCCESS] 3124 products in 13 batches
+2026-09-09T14:34:05: ✓ Completed: node --env-file=.env ./fetch/shopify.js
+2026-09-09T14:34:05: 
+2026-09-09T14:34:05: [2/7] Running: node --env-file=.env ./fetch/ibm.js
+2026-09-09T14:34:06: Reading input SKUs...
+2026-09-09T14:34:06: Querying IBM database for 1194 unique SKUs...
+2026-09-09T15:22:19: Starting inventory sync sequence...
+2026-09-09T15:22:19: ==================================================
+2026-09-09T15:22:19: 
+2026-09-09T15:22:19: [1/7] Running: node --env-file=.env ./fetch/shopify.js
+2026-09-09T15:22:20: [Fetching] Shopify products...
+2026-09-09T15:22:22: [BATCH 1] +250 | Total: 250
+2026-09-09T15:22:25: [BATCH 2] +250 | Total: 500
+2026-09-09T15:22:27: [BATCH 3] +250 | Total: 750
+2026-09-09T15:22:29: [BATCH 4] +250 | Total: 1000
+2026-09-09T15:22:31: [BATCH 5] +250 | Total: 1250
+2026-09-09T15:22:34: [BATCH 6] +250 | Total: 1500
+2026-09-09T15:22:36: [BATCH 7] +250 | Total: 1750
+2026-09-09T15:23:06: Starting inventory sync sequence...
+2026-09-09T15:23:06: ==================================================
+2026-09-09T15:23:06: 
+2026-09-09T15:23:06: [1/7] Running: node --env-file=.env ./fetch/shopify.js
+2026-09-09T15:23:06: [Fetching] Shopify products...
+2026-09-09T15:23:09: [BATCH 1] +250 | Total: 250
+2026-09-09T15:23:12: [BATCH 2] +250 | Total: 500
+2026-09-09T15:23:14: [BATCH 3] +250 | Total: 750
+2026-09-09T15:23:16: [BATCH 4] +250 | Total: 1000
+2026-09-09T15:23:18: [BATCH 5] +250 | Total: 1250
+2026-09-09T15:23:20: [BATCH 6] +250 | Total: 1500
+2026-09-09T15:23:22: [BATCH 7] +250 | Total: 1750
+2026-09-09T15:23:25: [BATCH 8] +250 | Total: 2000
+2026-09-09T15:23:27: [BATCH 9] +250 | Total: 2250
+2026-09-09T15:23:29: [BATCH 10] +250 | Total: 2500
+2026-09-09T15:23:32: [BATCH 11] +250 | Total: 2750
+2026-09-09T15:23:34: [BATCH 12] +250 | Total: 3000
+2026-09-09T15:23:35: [BATCH 13] +124 | Total: 3124
+2026-09-09T15:23:35: [SUCCESS] 3124 products in 13 batches
+2026-09-09T15:23:35: ✓ Completed: node --env-file=.env ./fetch/shopify.js
+2026-09-09T15:23:35: 
+2026-09-09T15:23:35: [2/7] Running: node --env-file=.env ./fetch/ibm.js
+2026-09-09T15:23:36: Reading input SKUs...
+2026-09-09T15:23:36: Querying IBM database for 1194 unique SKUs...
+2026-09-09T15:23:39: Writing 11940 inventory records...
+2026-09-09T15:23:39: Saved output to C:\Users\user\Desktop\shopify-inventory-syncer\output\ibm-inventory.jsonl
+2026-09-09T15:23:39: ✓ Completed: node --env-file=.env ./fetch/ibm.js
+2026-09-09T15:23:39: 
+2026-09-09T15:23:39: [3/7] Running: node --env-file=.env ./fetch/sql-server.js
+2026-09-09T15:23:40: [CONNECTED] 11500 | CEBU
+2026-09-09T15:23:40: [SOLD]: 0, [REVERSALS]: 0
+2026-09-09T15:23:40: [CONNECTED] 12100 | CQLC
+2026-09-09T15:23:40: [SOLD]: 6, [REVERSALS]: 0
+2026-09-09T15:23:40: [CONNECTED] 13400 | CENTRALE
+2026-09-09T15:23:40: [SOLD]: 15, [REVERSALS]: 0
+2026-09-09T15:23:40: [CONNECTED] 12700 | ZAMBOANGA
+2026-09-09T15:23:40: [SOLD]: 6, [REVERSALS]: 0
+2026-09-09T15:23:40: [CONNECTED] 10500 | PAGADIAN
+2026-09-09T15:23:40: [SOLD]: 13, [REVERSALS]: 0
+2026-09-09T15:23:40: [CONNECTED] 14300 | TOLEDO
+2026-09-09T15:23:40: [SOLD]: 11, [REVERSALS]: 0
+2026-09-09T15:23:41: [CONNECTED] 12000 | TAYTAY
+2026-09-09T15:23:41: [SOLD]: 1, [REVERSALS]: 0
+2026-09-09T15:23:41: [CONNECTED] 13600 | CARCAR
+2026-09-09T15:23:41: [SOLD]: 4, [REVERSALS]: 0
+2026-09-09T15:23:41: [CONNECTED] 11200 | CARMEN
+2026-09-09T15:23:41: [SOLD]: 7, [REVERSALS]: 0
+2026-09-09T15:23:41: [CONNECTED] 12400 | TALISAY
+2026-09-09T15:23:41: [SOLD]: 7, [REVERSALS]: 0
+2026-09-09T15:23:41: [CONNECTED] 11400 | PALAO
+2026-09-09T15:23:41: [SOLD]: 16, [REVERSALS]: 0
+2026-09-09T15:23:41: [CONNECTED] 11300 | CAPISTRANO
+2026-09-09T15:23:41: [SOLD]: 8, [REVERSALS]: 0
+2026-09-09T15:23:41: [CONNECTED] 10200 | ILIGAN
+2026-09-09T15:23:41: [SOLD]: 2, [REVERSALS]: 0
+2026-09-09T15:23:41: [CONNECTED] 13000 | PARKWAY
+2026-09-09T15:23:41: [SOLD]: 3, [REVERSALS]: 0
+2026-09-09T15:23:41: [CONNECTED] 10400 | BUTUAN
+2026-09-09T15:23:41: [SOLD]: 11, [REVERSALS]: 0
+2026-09-09T15:23:42: [CONNECTED] 10300 | VALENCIA
+2026-09-09T15:23:42: [SOLD]: 12, [REVERSALS]: 0
+2026-09-09T15:23:42: [CONNECTED] 14000 | CABADBARAN
+2026-09-09T15:23:42: [SOLD]: 9, [REVERSALS]: 0
+2026-09-09T15:23:42: [CONNECTED] 10700 | SURIGAO
+2026-09-09T15:23:42: [SOLD]: 12, [REVERSALS]: 0
+2026-09-09T15:23:42: [CONNECTED] 11000 | OSMENA
+2026-09-09T15:23:42: [SOLD]: 3, [REVERSALS]: 0
+2026-09-09T15:23:43: [CONNECTED] 10100 | CAGAYAN
+2026-09-09T15:23:43: [SOLD]: 22, [REVERSALS]: 1
+2026-09-09T15:23:43: Fetched 20/20 stores
+2026-09-09T15:23:43: Saved to C:\Users\user\Desktop\shopify-inventory-syncer\output\cms_data.json
+2026-09-09T15:23:43: ✓ Completed: node --env-file=.env ./fetch/sql-server.js
+2026-09-09T15:23:43: 
+2026-09-09T15:23:43: [4/7] Running: node --env-file=.env ./js/aggregate-cms-data.js
+2026-09-09T15:23:43: [READING] Loading raw data from: C:\Users\user\Desktop\shopify-inventory-syncer\output\cms_data.json
+2026-09-09T15:23:43: [SUCCESS] Wrote 161 flat JSONL rows to: C:\Users\user\Desktop\shopify-inventory-syncer\output\aggregated_cms_data.jsonl
+2026-09-09T15:23:43: ✓ Completed: node --env-file=.env ./js/aggregate-cms-data.js
+2026-09-09T15:23:43: 
+2026-09-09T15:23:43: [5/7] Running: node --env-file=.env ./js/merge-inventory.js
+2026-09-09T15:23:44: Inventory merged successfully: C:\Users\user\Desktop\shopify-inventory-syncer\output\final_inventory.jsonl
+2026-09-09T15:23:44: ✓ Completed: node --env-file=.env ./js/merge-inventory.js
+2026-09-09T15:23:44: 
+2026-09-09T15:23:44: [6/7] Running: node --env-file=.env ./js/generate-shopify-jsonl.js
+2026-09-09T15:23:44: Shopify inventory payload generated: C:\Users\user\Desktop\shopify-inventory-syncer\output\shopify_inventory_set_input.jsonl
+2026-09-09T15:23:44: ✓ Completed: node --env-file=.env ./js/generate-shopify-jsonl.js
+2026-09-09T15:23:44: 
+2026-09-09T15:23:44: [7/7] Running: node --env-file=.env ./js/update-inventory.js
+2026-09-09T15:23:45: 🚀 Executing bulk job: shopify_inventory_set_input.jsonl
+2026-09-09T15:23:48: Job Started [ID: gid://shopify/BulkOperation/8430583185633]
+2026-09-09T15:23:48: Progress: CREATED | Objects: 0
+2026-09-09T15:23:51: Progress: RUNNING | Objects: 148
+2026-09-09T15:23:55: Progress: RUNNING | Objects: 357
+2026-09-09T15:23:58: Progress: RUNNING | Objects: 552
+2026-09-09T15:24:02: Progress: RUNNING | Objects: 754
+2026-09-09T15:24:05: Progress: RUNNING | Objects: 954
+2026-09-09T15:24:09: Progress: RUNNING | Objects: 1161
+2026-09-09T15:24:12: Progress: RUNNING | Objects: 1368
+2026-09-09T15:24:15: Progress: RUNNING | Objects: 1564
+2026-09-09T15:24:19: Progress: RUNNING | Objects: 1773
+2026-09-09T15:24:22: Progress: RUNNING | Objects: 1930
+2026-09-09T15:24:26: Progress: RUNNING | Objects: 2110
+2026-09-09T15:24:29: Progress: RUNNING | Objects: 2281
+2026-09-09T15:24:32: Progress: RUNNING | Objects: 2458
+2026-09-09T15:24:36: Progress: RUNNING | Objects: 2673
+2026-09-09T15:24:40: Progress: RUNNING | Objects: 2867
+2026-09-09T15:24:43: Progress: RUNNING | Objects: 3068
+2026-09-09T15:24:46: Progress: RUNNING | Objects: 3269
+2026-09-09T15:24:50: Progress: RUNNING | Objects: 3451
+2026-09-09T15:24:53: Progress: RUNNING | Objects: 3637
+2026-09-09T15:24:57: Progress: RUNNING | Objects: 3836
+2026-09-09T15:25:00: Progress: RUNNING | Objects: 4023
+2026-09-09T15:25:03: Progress: RUNNING | Objects: 4212
+2026-09-09T15:25:07: Progress: RUNNING | Objects: 4402
+2026-09-09T15:25:10: Progress: RUNNING | Objects: 4595
+2026-09-09T15:25:14: Progress: RUNNING | Objects: 4790
+2026-09-09T15:25:17: Progress: RUNNING | Objects: 4987
+2026-09-09T15:25:20: Progress: RUNNING | Objects: 5172
+2026-09-09T15:25:24: Progress: RUNNING | Objects: 5369
+2026-09-09T15:25:27: Progress: RUNNING | Objects: 5563
+2026-09-09T15:25:31: Progress: RUNNING | Objects: 5759
+2026-09-09T15:25:34: Progress: RUNNING | Objects: 5943
+2026-09-09T15:25:37: Progress: RUNNING | Objects: 6142
+2026-09-09T15:25:41: Progress: RUNNING | Objects: 6334
+2026-09-09T15:25:44: Progress: RUNNING | Objects: 6517
+2026-09-09T15:25:48: Progress: RUNNING | Objects: 6710
+2026-09-09T15:25:51: Progress: RUNNING | Objects: 6906
+2026-09-09T15:25:55: Progress: RUNNING | Objects: 7090
+2026-09-09T15:25:58: Progress: RUNNING | Objects: 7286
+2026-09-09T15:26:01: Progress: RUNNING | Objects: 7480
+2026-09-09T15:26:05: Progress: RUNNING | Objects: 7638
+2026-09-09T15:26:08: Progress: RUNNING | Objects: 7822
+2026-09-09T15:26:12: Progress: RUNNING | Objects: 8005
+2026-09-09T15:26:15: Progress: RUNNING | Objects: 8190
+2026-09-09T15:26:18: Progress: RUNNING | Objects: 8382
+2026-09-09T15:26:22: Progress: RUNNING | Objects: 8552
+2026-09-09T15:26:25: Progress: RUNNING | Objects: 8718
+2026-09-09T15:26:29: Progress: RUNNING | Objects: 8907
+2026-09-09T15:26:32: Progress: RUNNING | Objects: 9070
+2026-09-09T15:26:35: Progress: RUNNING | Objects: 9237
+2026-09-09T15:26:39: Progress: RUNNING | Objects: 9403
+2026-09-09T15:26:42: Progress: RUNNING | Objects: 9574
+2026-09-09T15:26:46: Progress: RUNNING | Objects: 9762
+2026-09-09T15:26:49: Progress: RUNNING | Objects: 9949
+2026-09-09T15:26:52: Progress: RUNNING | Objects: 10140
+2026-09-09T15:26:56: Progress: RUNNING | Objects: 10329
+2026-09-09T15:26:59: Progress: RUNNING | Objects: 10512
+2026-09-09T15:27:03: Progress: RUNNING | Objects: 10672
+2026-09-09T15:27:06: Progress: RUNNING | Objects: 10835
+2026-09-09T15:27:09: Progress: RUNNING | Objects: 10906
+2026-09-09T15:27:13: Progress: RUNNING | Objects: 10906
+2026-09-09T15:27:16: Progress: RUNNING | Objects: 10906
+2026-09-09T15:27:20: Progress: RUNNING | Objects: 10906
+2026-09-09T15:27:23: Progress: RUNNING | Objects: 10906
+2026-09-09T15:27:28: Progress: RUNNING | Objects: 10906
+2026-09-09T15:27:31: Progress: RUNNING | Objects: 10906
+2026-09-09T15:27:35: Progress: RUNNING | Objects: 10906
+2026-09-09T15:27:38: Progress: RUNNING | Objects: 10906
+2026-09-09T15:27:42: Progress: RUNNING | Objects: 10906
+2026-09-09T15:27:45: Progress: RUNNING | Objects: 10906
+2026-09-09T15:27:48: Progress: RUNNING | Objects: 10906
+2026-09-09T15:27:52: Progress: RUNNING | Objects: 10906
+2026-09-09T15:27:55: Progress: RUNNING | Objects: 10906
+2026-09-09T15:27:59: Progress: RUNNING | Objects: 10906
+2026-09-09T15:28:02: Progress: RUNNING | Objects: 10906
+2026-09-09T15:28:06: Progress: RUNNING | Objects: 10906
+2026-09-09T15:28:09: Progress: RUNNING | Objects: 10906
+2026-09-09T15:28:12: Progress: RUNNING | Objects: 10906
+2026-09-09T15:28:16: Progress: RUNNING | Objects: 10906
+2026-09-09T15:28:19: Progress: RUNNING | Objects: 10906
+2026-09-09T15:28:23: Progress: RUNNING | Objects: 10906
+2026-09-09T15:28:26: Progress: RUNNING | Objects: 10906
+2026-09-09T15:28:30: Progress: RUNNING | Objects: 10906
+2026-09-09T15:28:33: Progress: RUNNING | Objects: 10906
+2026-09-09T15:28:36: Progress: RUNNING | Objects: 10906
+2026-09-09T15:28:40: Progress: RUNNING | Objects: 10910
+2026-09-09T15:28:43: Progress: RUNNING | Objects: 11033
+2026-09-09T15:28:47: Progress: RUNNING | Objects: 11215
+2026-09-09T15:28:50: Progress: RUNNING | Objects: 11356
+2026-09-09T15:28:53: Progress: RUNNING | Objects: 11518
+2026-09-09T15:28:57: Progress: RUNNING | Objects: 11645
+2026-09-09T15:29:00: Progress: RUNNING | Objects: 11769
+2026-09-09T15:29:04: Progress: RUNNING | Objects: 11882
+2026-09-09T15:29:07: Progress: RUNNING | Objects: 11930
+2026-09-09T15:29:10: Progress: RUNNING | Objects: 11940
+2026-09-09T15:29:14: Progress: COMPLETED | Objects: 11940
+2026-09-09T15:29:14: ✔ Completed: shopify_inventory_set_input.jsonl
+2026-09-09T15:29:14: 📊 Results:
+2026-09-09T15:29:14:    - Status: COMPLETED
+2026-09-09T15:29:14:    - Objects processed: 11940
+2026-09-09T15:29:14:    - Error code: None
+2026-09-09T15:29:14:    - Created at: 2026-09-09T07:23:45Z
+2026-09-09T15:29:14:    - Completed at: 2026-09-09T07:29:09Z
+2026-09-09T15:29:14: 📥 Downloading results from: https://storage.googleapis.com/shopify-tiers-assets-prod-us-east1/bulk-operation-outputs/9a83d2183eebf010866c70a69795?GoogleAccessId=assets-us-prod%40shopify-tiers.iam.gserviceaccount.com&Expires=1789543748&Signature=JhtewaGzxr1MiiOfXzuOlnRJIryWUmTq2FXrcRu29dOO%2FjP5Mgst9cX8IJVnklTE4uPDp4zhKWI78F27zGDqoTEfXHMKmhMGM6xgo0n73Nehq0JvQV3wxb14kaXetfgXGy0YznFeu0Y15LV%2FPPxuu%2FhOz50Yx8cXJ8PPoUpd%2F2eqZEQfmzMaZUwsJBTtR635ypUHz5349nESCHTo4bm%2BlOtsoMtvr369ArrQt2DQUgoNJ%2FJVhI519PiMvHXg12NKiQ8%2FfqT5O30Sw1y64qllV%2FqJynF97unHYsRgvg0J8mAy7Mc2yCxgKzcX5K%2B%2BurUiz5cCUISpDTpqpQ7IO3ExXA%3D%3D&response-content-disposition=attachment%3B+filename%3D%22staging-bulk-8430583185633.jsonl%22%3B+filename%2A%3DUTF-8%27%27staging-bulk-8430583185633.jsonl&response-content-type=application%2Fjsonl
+2026-09-09T15:29:16: ✅ Results saved to: C:\Users\user\Desktop\shopify-inventory-syncer\output\results_shopify_inventory_set_input.jsonl
+2026-09-09T15:29:16: 
+2026-09-09T15:29:16: 🎉 Processing complete.
+2026-09-09T15:29:16: ✓ Completed: node --env-file=.env ./js/update-inventory.js
+2026-09-09T15:29:16: 
+2026-09-09T15:29:16: ==================================================
+2026-09-09T15:29:16: ✓ All commands completed successfully!
+2026-09-09T15:29:20: Starting inventory sync sequence...
+2026-09-09T15:29:20: ==================================================
+2026-09-09T15:29:20: 
+2026-09-09T15:29:20: [1/7] Running: node --env-file=.env ./fetch/shopify.js
+2026-09-09T15:29:20: [Fetching] Shopify products...
+2026-09-09T15:29:23: [BATCH 1] +250 | Total: 250
+2026-09-09T15:29:25: [BATCH 2] +250 | Total: 500
+2026-09-09T15:29:27: [BATCH 3] +250 | Total: 750
+2026-09-09T15:29:30: [BATCH 4] +250 | Total: 1000
+2026-09-09T15:29:32: [BATCH 5] +250 | Total: 1250
+2026-09-09T15:29:34: [BATCH 6] +250 | Total: 1500
+2026-09-09T15:29:36: [BATCH 7] +250 | Total: 1750
+2026-09-09T15:29:38: [BATCH 8] +250 | Total: 2000
+2026-09-09T15:29:40: [BATCH 9] +250 | Total: 2250
+2026-09-09T15:29:42: [BATCH 10] +250 | Total: 2500
+2026-09-09T15:29:43: [BATCH 11] +250 | Total: 2750
+2026-09-09T15:29:46: [BATCH 12] +250 | Total: 3000
+2026-09-09T15:29:47: [BATCH 13] +124 | Total: 3124
+2026-09-09T15:29:47: [SUCCESS] 3124 products in 13 batches
+2026-09-09T15:29:47: ✓ Completed: node --env-file=.env ./fetch/shopify.js
+2026-09-09T15:29:47: 
+2026-09-09T15:29:47: [2/7] Running: node --env-file=.env ./fetch/ibm.js
+2026-09-09T15:29:47: Reading input SKUs...
+2026-09-09T15:29:47: Querying IBM database for 1194 unique SKUs...
+2026-09-09T15:29:50: Writing 11940 inventory records...
+2026-09-09T15:29:50: Saved output to C:\Users\user\Desktop\shopify-inventory-syncer\output\ibm-inventory.jsonl
+2026-09-09T15:29:50: ✓ Completed: node --env-file=.env ./fetch/ibm.js
+2026-09-09T15:29:50: 
+2026-09-09T15:29:50: [3/7] Running: node --env-file=.env ./fetch/sql-server.js
+2026-09-09T15:29:51: [CONNECTED] 11500 | CEBU
+2026-09-09T15:29:51: [SOLD]: 0, [REVERSALS]: 0
+2026-09-09T15:29:51: [CONNECTED] 12100 | CQLC
+2026-09-09T15:29:51: [SOLD]: 6, [REVERSALS]: 0
+2026-09-09T15:29:51: [CONNECTED] 13400 | CENTRALE
+2026-09-09T15:29:51: [SOLD]: 16, [REVERSALS]: 0
+2026-09-09T15:29:51: [CONNECTED] 12700 | ZAMBOANGA
+2026-09-09T15:29:51: [SOLD]: 6, [REVERSALS]: 0
+2026-09-09T15:29:52: [CONNECTED] 14300 | TOLEDO
+2026-09-09T15:29:52: [SOLD]: 12, [REVERSALS]: 0
+2026-09-09T15:29:53: [CONNECTED] 13600 | CARCAR
+2026-09-09T15:29:53: [SOLD]: 5, [REVERSALS]: 0
+2026-09-09T15:29:53: [CONNECTED] 12000 | TAYTAY
+2026-09-09T15:29:53: [SOLD]: 1, [REVERSALS]: 0
+2026-09-09T15:29:53: [CONNECTED] 12400 | TALISAY
+2026-09-09T15:29:53: [SOLD]: 7, [REVERSALS]: 0
+2026-09-09T15:29:53: [CONNECTED] 10300 | VALENCIA
+2026-09-09T15:29:53: [SOLD]: 13, [REVERSALS]: 0
+2026-09-09T15:29:53: [CONNECTED] 11000 | OSMENA
+2026-09-09T15:29:53: [SOLD]: 3, [REVERSALS]: 0
+2026-09-09T15:29:53: [CONNECTED] 11400 | PALAO
+2026-09-09T15:29:53: [SOLD]: 17, [REVERSALS]: 0
+2026-09-09T15:29:53: [CONNECTED] 11200 | CARMEN
+2026-09-09T15:29:53: [SOLD]: 7, [REVERSALS]: 0
+2026-09-09T15:29:53: [CONNECTED] 10400 | BUTUAN
+2026-09-09T15:29:53: [SOLD]: 11, [REVERSALS]: 0
+2026-09-09T15:29:53: [CONNECTED] 13000 | PARKWAY
+2026-09-09T15:29:53: [SOLD]: 3, [REVERSALS]: 0
+2026-09-09T15:29:53: [CONNECTED] 11300 | CAPISTRANO
+2026-09-09T15:29:53: [SOLD]: 8, [REVERSALS]: 0
+2026-09-09T15:29:53: [CONNECTED] 10200 | ILIGAN
+2026-09-09T15:29:53: [SOLD]: 2, [REVERSALS]: 0
+2026-09-09T15:29:53: [CONNECTED] 14000 | CABADBARAN
+2026-09-09T15:29:53: [SOLD]: 9, [REVERSALS]: 0
+2026-09-09T15:29:54: [CONNECTED] 10700 | SURIGAO
+2026-09-09T15:29:54: [SOLD]: 13, [REVERSALS]: 0
+2026-09-09T15:29:54: [CONNECTED] 10500 | PAGADIAN
+2026-09-09T15:29:54: [SOLD]: 13, [REVERSALS]: 0
+2026-09-09T15:29:58: [CONNECTED] 10100 | CAGAYAN
+2026-09-09T15:29:58: [SOLD]: 24, [REVERSALS]: 1
+2026-09-09T15:29:58: Fetched 20/20 stores
+2026-09-09T15:29:58: Saved to C:\Users\user\Desktop\shopify-inventory-syncer\output\cms_data.json
+2026-09-09T15:29:58: ✓ Completed: node --env-file=.env ./fetch/sql-server.js
+2026-09-09T15:29:58: 
+2026-09-09T15:29:58: [4/7] Running: node --env-file=.env ./js/aggregate-cms-data.js
+2026-09-09T15:29:58: [READING] Loading raw data from: C:\Users\user\Desktop\shopify-inventory-syncer\output\cms_data.json
+2026-09-09T15:29:58: [SUCCESS] Wrote 168 flat JSONL rows to: C:\Users\user\Desktop\shopify-inventory-syncer\output\aggregated_cms_data.jsonl
+2026-09-09T15:29:58: ✓ Completed: node --env-file=.env ./js/aggregate-cms-data.js
+2026-09-09T15:29:58: 
+2026-09-09T15:29:58: [5/7] Running: node --env-file=.env ./js/merge-inventory.js
+2026-09-09T15:29:59: Inventory merged successfully: C:\Users\user\Desktop\shopify-inventory-syncer\output\final_inventory.jsonl
+2026-09-09T15:29:59: ✓ Completed: node --env-file=.env ./js/merge-inventory.js
+2026-09-09T15:29:59: 
+2026-09-09T15:29:59: [6/7] Running: node --env-file=.env ./js/generate-shopify-jsonl.js
+2026-09-09T15:29:59: Shopify inventory payload generated: C:\Users\user\Desktop\shopify-inventory-syncer\output\shopify_inventory_set_input.jsonl
+2026-09-09T15:29:59: ✓ Completed: node --env-file=.env ./js/generate-shopify-jsonl.js
+2026-09-09T15:29:59: 
+2026-09-09T15:29:59: [7/7] Running: node --env-file=.env ./js/update-inventory.js
+2026-09-09T15:30:00: Starting inventory sync sequence...
+2026-09-09T15:30:00: ==================================================
+2026-09-09T15:30:00: 
+2026-09-09T15:30:00: [1/7] Running: node --env-file=.env ./fetch/shopify.js
+2026-09-09T15:30:00: [Fetching] Shopify products...
+2026-09-09T15:30:03: [BATCH 1] +250 | Total: 250
+2026-09-09T15:30:05: [BATCH 2] +250 | Total: 500
+2026-09-09T15:30:08: [BATCH 3] +250 | Total: 750
+2026-09-09T15:30:10: [BATCH 4] +250 | Total: 1000
+2026-09-09T15:30:12: [BATCH 5] +250 | Total: 1250
+2026-09-09T15:30:14: [BATCH 6] +250 | Total: 1500
+2026-09-09T15:30:16: [BATCH 7] +250 | Total: 1750
+2026-09-09T15:30:19: [BATCH 8] +250 | Total: 2000
+2026-09-09T15:30:21: [BATCH 9] +250 | Total: 2250
+2026-09-09T15:30:23: [BATCH 10] +250 | Total: 2500
+2026-09-09T15:30:25: [BATCH 11] +250 | Total: 2750
+2026-09-09T15:30:28: [BATCH 12] +250 | Total: 3000
+2026-09-09T15:30:29: [BATCH 13] +124 | Total: 3124
+2026-09-09T15:30:29: [SUCCESS] 3124 products in 13 batches
+2026-09-09T15:30:29: ✓ Completed: node --env-file=.env ./fetch/shopify.js
+2026-09-09T15:30:29: 
+2026-09-09T15:30:29: [2/7] Running: node --env-file=.env ./fetch/ibm.js
+2026-09-09T15:30:29: Reading input SKUs...
+2026-09-09T15:30:29: Querying IBM database for 1194 unique SKUs...
+2026-09-09T15:30:34: Writing 11940 inventory records...
+2026-09-09T15:30:34: Saved output to C:\Users\user\Desktop\shopify-inventory-syncer\output\ibm-inventory.jsonl
+2026-09-09T15:30:34: ✓ Completed: node --env-file=.env ./fetch/ibm.js
+2026-09-09T15:30:34: 
+2026-09-09T15:30:34: [3/7] Running: node --env-file=.env ./fetch/sql-server.js
+2026-09-09T15:30:35: [CONNECTED] 11500 | CEBU
+2026-09-09T15:30:35: [SOLD]: 0, [REVERSALS]: 0
+2026-09-09T15:30:35: [CONNECTED] 12100 | CQLC
+2026-09-09T15:30:35: [SOLD]: 6, [REVERSALS]: 0
+2026-09-09T15:30:35: [CONNECTED] 13400 | CENTRALE
+2026-09-09T15:30:35: [SOLD]: 16, [REVERSALS]: 0
+2026-09-09T15:30:35: [CONNECTED] 12700 | ZAMBOANGA
+2026-09-09T15:30:35: [SOLD]: 6, [REVERSALS]: 0
+2026-09-09T15:30:36: [CONNECTED] 14300 | TOLEDO
+2026-09-09T15:30:36: [SOLD]: 12, [REVERSALS]: 0
+2026-09-09T15:30:37: [CONNECTED] 12000 | TAYTAY
+2026-09-09T15:30:37: [SOLD]: 1, [REVERSALS]: 0
+2026-09-09T15:30:37: [CONNECTED] 13600 | CARCAR
+2026-09-09T15:30:37: [SOLD]: 5, [REVERSALS]: 0
+2026-09-09T15:30:37: [CONNECTED] 11400 | PALAO
+2026-09-09T15:30:37: [SOLD]: 17, [REVERSALS]: 0
+2026-09-09T15:30:37: [CONNECTED] 11200 | CARMEN
+2026-09-09T15:30:37: [SOLD]: 7, [REVERSALS]: 0
+2026-09-09T15:30:37: [CONNECTED] 10400 | BUTUAN
+2026-09-09T15:30:37: [SOLD]: 11, [REVERSALS]: 0
+2026-09-09T15:30:37: [CONNECTED] 12400 | TALISAY
+2026-09-09T15:30:37: [SOLD]: 7, [REVERSALS]: 0
+2026-09-09T15:30:37: [CONNECTED] 10700 | SURIGAO
+2026-09-09T15:30:37: [SOLD]: 13, [REVERSALS]: 0
+2026-09-09T15:30:37: [CONNECTED] 11300 | CAPISTRANO
+2026-09-09T15:30:37: [SOLD]: 8, [REVERSALS]: 0
+2026-09-09T15:30:37: [CONNECTED] 13000 | PARKWAY
+2026-09-09T15:30:37: [SOLD]: 3, [REVERSALS]: 0
+2026-09-09T15:30:37: [CONNECTED] 10200 | ILIGAN
+2026-09-09T15:30:37: [SOLD]: 2, [REVERSALS]: 0
+2026-09-09T15:30:37: [CONNECTED] 10300 | VALENCIA
+2026-09-09T15:30:37: [SOLD]: 13, [REVERSALS]: 0
+2026-09-09T15:30:37: [CONNECTED] 10500 | PAGADIAN
+2026-09-09T15:30:37: [SOLD]: 13, [REVERSALS]: 0
+2026-09-09T15:30:37: [CONNECTED] 14000 | CABADBARAN
+2026-09-09T15:30:37: [SOLD]: 9, [REVERSALS]: 0
+2026-09-09T15:30:37: [CONNECTED] 11000 | OSMENA
+2026-09-09T15:30:37: [SOLD]: 3, [REVERSALS]: 0
+2026-09-09T15:30:38: [CONNECTED] 10100 | CAGAYAN
+2026-09-09T15:30:38: [SOLD]: 24, [REVERSALS]: 1
+2026-09-09T15:30:38: Fetched 20/20 stores
+2026-09-09T15:30:38: Saved to C:\Users\user\Desktop\shopify-inventory-syncer\output\cms_data.json
+2026-09-09T15:30:38: ✓ Completed: node --env-file=.env ./fetch/sql-server.js
+2026-09-09T15:30:38: 
+2026-09-09T15:30:38: [4/7] Running: node --env-file=.env ./js/aggregate-cms-data.js
+2026-09-09T15:30:38: [READING] Loading raw data from: C:\Users\user\Desktop\shopify-inventory-syncer\output\cms_data.json
+2026-09-09T15:30:38: [SUCCESS] Wrote 168 flat JSONL rows to: C:\Users\user\Desktop\shopify-inventory-syncer\output\aggregated_cms_data.jsonl
+2026-09-09T15:30:38: ✓ Completed: node --env-file=.env ./js/aggregate-cms-data.js
+2026-09-09T15:30:38: 
+2026-09-09T15:30:38: [5/7] Running: node --env-file=.env ./js/merge-inventory.js
+2026-09-09T15:30:39: Inventory merged successfully: C:\Users\user\Desktop\shopify-inventory-syncer\output\final_inventory.jsonl
+2026-09-09T15:30:39: ✓ Completed: node --env-file=.env ./js/merge-inventory.js
+2026-09-09T15:30:39: 
+2026-09-09T15:30:39: [6/7] Running: node --env-file=.env ./js/generate-shopify-jsonl.js
+2026-09-09T15:30:40: Shopify inventory payload generated: C:\Users\user\Desktop\shopify-inventory-syncer\output\shopify_inventory_set_input.jsonl
+2026-09-09T15:30:40: ✓ Completed: node --env-file=.env ./js/generate-shopify-jsonl.js
+2026-09-09T15:30:40: 
+2026-09-09T15:30:40: [7/7] Running: node --env-file=.env ./js/update-inventory.js
+2026-09-09T15:30:40: 🚀 Executing bulk job: shopify_inventory_set_input.jsonl
+2026-09-09T15:30:43: Job Started [ID: gid://shopify/BulkOperation/8430610579681]
+2026-09-09T15:30:44: Progress: CREATED | Objects: 0
+2026-09-09T15:30:47: Progress: RUNNING | Objects: 84
+2026-09-09T15:30:51: Progress: RUNNING | Objects: 285
+2026-09-09T15:30:54: Progress: RUNNING | Objects: 482
+2026-09-09T15:30:57: Progress: RUNNING | Objects: 671
+2026-09-09T15:39:27: Starting inventory sync sequence...
+2026-09-09T15:39:27: ==================================================
+2026-09-09T15:39:27: 
+2026-09-09T15:39:27: [1/7] Running: node --env-file=.env ./fetch/shopify.js
+2026-09-09T15:39:27: [Fetching] Shopify products...
+2026-09-09T15:39:30: [BATCH 1] +250 | Total: 250
+2026-09-09T15:39:33: [BATCH 2] +250 | Total: 500
+2026-09-09T15:39:36: [BATCH 3] +250 | Total: 750
+2026-09-09T15:39:38: [BATCH 4] +250 | Total: 1000
+2026-09-09T15:39:40: [BATCH 5] +250 | Total: 1250
+2026-09-09T15:39:42: [BATCH 6] +250 | Total: 1500
+2026-09-09T15:39:44: [BATCH 7] +250 | Total: 1750
+2026-09-09T15:39:46: [BATCH 8] +250 | Total: 2000
+2026-09-09T15:39:49: [BATCH 9] +250 | Total: 2250
+2026-09-09T15:39:51: [BATCH 10] +250 | Total: 2500
+2026-09-09T15:39:53: [BATCH 11] +250 | Total: 2750
+2026-09-09T15:39:55: [BATCH 12] +250 | Total: 3000
+2026-09-09T15:39:56: [BATCH 13] +124 | Total: 3124
+2026-09-09T15:39:56: [SUCCESS] 3124 products in 13 batches
+2026-09-09T15:39:56: ✓ Completed: node --env-file=.env ./fetch/shopify.js
+2026-09-09T15:39:56: 
+2026-09-09T15:39:56: [2/7] Running: node --env-file=.env ./fetch/ibm.js
+2026-09-09T15:39:57: Reading input SKUs...
+2026-09-09T15:39:57: Querying IBM database for 1194 unique SKUs...
+2026-09-09T15:40:00: Writing 11940 inventory records...
+2026-09-09T15:40:00: Saved output to C:\Users\user\Desktop\shopify-inventory-syncer\output\ibm-inventory.jsonl
+2026-09-09T15:40:00: ✓ Completed: node --env-file=.env ./fetch/ibm.js
+2026-09-09T15:40:00: 
+2026-09-09T15:40:00: [3/7] Running: node --env-file=.env ./fetch/sql-server.js
+2026-09-09T15:40:01: [CONNECTED] 11500 | CEBU
+2026-09-09T15:40:01: [SOLD]: 0, [REVERSALS]: 0
+2026-09-09T15:40:01: [CONNECTED] 12100 | CQLC
+2026-09-09T15:40:01: [SOLD]: 6, [REVERSALS]: 0
+2026-09-09T15:40:01: [CONNECTED] 13400 | CENTRALE
+2026-09-09T15:40:01: [SOLD]: 16, [REVERSALS]: 0
+2026-09-09T15:40:01: [CONNECTED] 12700 | ZAMBOANGA
+2026-09-09T15:40:01: [SOLD]: 7, [REVERSALS]: 0
+2026-09-09T15:40:01: [CONNECTED] 14300 | TOLEDO
+2026-09-09T15:40:01: [SOLD]: 13, [REVERSALS]: 0
+2026-09-09T15:40:02: [CONNECTED] 12000 | TAYTAY
+2026-09-09T15:40:02: [SOLD]: 1, [REVERSALS]: 0
+2026-09-09T15:40:02: [CONNECTED] 13600 | CARCAR
+2026-09-09T15:40:02: [SOLD]: 6, [REVERSALS]: 0
+2026-09-09T15:40:03: [CONNECTED] 12400 | TALISAY
+2026-09-09T15:40:03: [SOLD]: 7, [REVERSALS]: 0
+2026-09-09T15:40:03: [CONNECTED] 11200 | CARMEN
+2026-09-09T15:40:03: [SOLD]: 8, [REVERSALS]: 0
+2026-09-09T15:40:03: [CONNECTED] 11400 | PALAO
+2026-09-09T15:40:03: [SOLD]: 17, [REVERSALS]: 0
+2026-09-09T15:40:03: [CONNECTED] 10200 | ILIGAN
+2026-09-09T15:40:03: [SOLD]: 2, [REVERSALS]: 0
+2026-09-09T15:40:03: [CONNECTED] 13000 | PARKWAY
+2026-09-09T15:40:03: [SOLD]: 3, [REVERSALS]: 0
+2026-09-09T15:40:03: [CONNECTED] 10500 | PAGADIAN
+2026-09-09T15:40:03: [SOLD]: 15, [REVERSALS]: 0
+2026-09-09T15:40:03: [CONNECTED] 10400 | BUTUAN
+2026-09-09T15:40:03: [SOLD]: 11, [REVERSALS]: 0
+2026-09-09T15:40:03: [CONNECTED] 11300 | CAPISTRANO
+2026-09-09T15:40:03: [SOLD]: 8, [REVERSALS]: 0
+2026-09-09T15:40:03: [CONNECTED] 10700 | SURIGAO
+2026-09-09T15:40:03: [SOLD]: 13, [REVERSALS]: 0
+2026-09-09T15:40:03: [CONNECTED] 14000 | CABADBARAN
+2026-09-09T15:40:03: [SOLD]: 9, [REVERSALS]: 0
+2026-09-09T15:40:03: [CONNECTED] 10300 | VALENCIA
+2026-09-09T15:40:03: [SOLD]: 13, [REVERSALS]: 0
+2026-09-09T15:40:03: [CONNECTED] 11000 | OSMENA
+2026-09-09T15:40:03: [SOLD]: 3, [REVERSALS]: 0
+2026-09-09T15:40:04: [CONNECTED] 10100 | CAGAYAN
+2026-09-09T15:40:04: [SOLD]: 24, [REVERSALS]: 1
+2026-09-09T15:40:04: Fetched 20/20 stores
+2026-09-09T15:40:04: Saved to C:\Users\user\Desktop\shopify-inventory-syncer\output\cms_data.json
+2026-09-09T15:40:04: ✓ Completed: node --env-file=.env ./fetch/sql-server.js
+2026-09-09T15:40:04: 
+2026-09-09T15:40:04: [4/7] Running: node --env-file=.env ./js/aggregate-cms-data.js
+2026-09-09T15:40:04: [READING] Loading raw data from: C:\Users\user\Desktop\shopify-inventory-syncer\output\cms_data.json
+2026-09-09T15:40:04: [SUCCESS] Wrote 173 flat JSONL rows to: C:\Users\user\Desktop\shopify-inventory-syncer\output\aggregated_cms_data.jsonl
+2026-09-09T15:40:04: ✓ Completed: node --env-file=.env ./js/aggregate-cms-data.js
+2026-09-09T15:40:04: 
+2026-09-09T15:40:04: [5/7] Running: node --env-file=.env ./js/merge-inventory.js
+2026-09-09T15:40:05: Inventory merged successfully: C:\Users\user\Desktop\shopify-inventory-syncer\output\final_inventory.jsonl
+2026-09-09T15:40:05: ✓ Completed: node --env-file=.env ./js/merge-inventory.js
+2026-09-09T15:40:05: 
+2026-09-09T15:40:05: [6/7] Running: node --env-file=.env ./js/generate-shopify-jsonl.js
+2026-09-09T15:40:06: Shopify inventory payload generated: C:\Users\user\Desktop\shopify-inventory-syncer\output\shopify_inventory_set_input.jsonl
+2026-09-09T15:40:06: ✓ Completed: node --env-file=.env ./js/generate-shopify-jsonl.js
+2026-09-09T15:40:06: 
+2026-09-09T15:40:06: [7/7] Running: node --env-file=.env ./js/update-inventory.js
+2026-09-09T15:40:07: 🚀 Executing bulk job: shopify_inventory_set_input.jsonl
+2026-09-09T15:40:10: Job Started [ID: gid://shopify/BulkOperation/8430645772513]
+2026-09-09T15:40:10: Progress: CREATED | Objects: 0
+2026-09-09T15:40:14: Progress: RUNNING | Objects: 153
+2026-09-09T15:40:17: Progress: RUNNING | Objects: 322
+2026-09-09T15:40:20: Progress: RUNNING | Objects: 514
+2026-09-09T15:40:24: Progress: RUNNING | Objects: 719
+2026-09-09T15:40:27: Progress: RUNNING | Objects: 914
+2026-09-09T15:40:31: Progress: RUNNING | Objects: 1126
+2026-09-09T15:40:34: Progress: RUNNING | Objects: 1335
+2026-09-09T15:40:38: Progress: RUNNING | Objects: 1546
+2026-09-09T15:40:41: Progress: RUNNING | Objects: 1742
+2026-09-09T15:40:44: Progress: RUNNING | Objects: 1941
+2026-09-09T15:40:48: Progress: RUNNING | Objects: 2148
+2026-09-09T15:40:51: Progress: RUNNING | Objects: 2345
+2026-09-09T15:40:55: Progress: RUNNING | Objects: 2543
+2026-09-09T15:40:58: Progress: RUNNING | Objects: 2740
+2026-09-09T15:41:02: Progress: RUNNING | Objects: 2942
+2026-09-09T15:41:05: Progress: RUNNING | Objects: 3136
+2026-09-09T15:41:08: Progress: RUNNING | Objects: 3343
+2026-09-09T15:41:12: Progress: RUNNING | Objects: 3548
+2026-09-09T15:41:15: Progress: RUNNING | Objects: 3742
+2026-09-09T15:41:19: Progress: RUNNING | Objects: 3947
+2026-09-09T15:41:22: Progress: RUNNING | Objects: 4156
+2026-09-09T15:41:25: Progress: RUNNING | Objects: 4345
+2026-09-09T15:41:29: Progress: RUNNING | Objects: 4468
+2026-09-09T15:41:32: Progress: RUNNING | Objects: 4468
+2026-09-09T15:41:36: Progress: RUNNING | Objects: 4468
+2026-09-09T15:41:39: Progress: RUNNING | Objects: 4468
+2026-09-09T15:41:42: Progress: RUNNING | Objects: 4468
+2026-09-09T15:41:46: Progress: RUNNING | Objects: 4468
+2026-09-09T15:41:49: Progress: RUNNING | Objects: 4468
+2026-09-09T15:41:53: Progress: RUNNING | Objects: 4468
+2026-09-09T15:41:56: Progress: RUNNING | Objects: 4468
+2026-09-09T15:42:00: Progress: RUNNING | Objects: 4468
+2026-09-09T15:42:03: Progress: RUNNING | Objects: 4468
+2026-09-09T15:42:06: Progress: RUNNING | Objects: 4468
+2026-09-09T15:42:10: Progress: RUNNING | Objects: 4468
+2026-09-09T15:42:13: Progress: RUNNING | Objects: 4468
+2026-09-09T15:42:17: Progress: RUNNING | Objects: 4468
+2026-09-09T15:42:20: Progress: RUNNING | Objects: 4468
+2026-09-09T15:42:23: Progress: RUNNING | Objects: 4468
+2026-09-09T15:42:27: Progress: RUNNING | Objects: 4468
+2026-09-09T15:42:30: Progress: RUNNING | Objects: 4468
+2026-09-09T15:42:34: Progress: RUNNING | Objects: 4468
+2026-09-09T15:42:37: Progress: RUNNING | Objects: 4468
+2026-09-09T15:42:40: Progress: RUNNING | Objects: 4468
+2026-09-09T15:42:44: Progress: RUNNING | Objects: 4468
+2026-09-09T15:42:47: Progress: RUNNING | Objects: 4468
+2026-09-09T15:42:51: Progress: RUNNING | Objects: 4468
+2026-09-09T15:42:54: Progress: RUNNING | Objects: 4468
+2026-09-09T15:42:58: Progress: RUNNING | Objects: 4468
+2026-09-09T15:43:01: Progress: RUNNING | Objects: 4468
+2026-09-09T15:43:04: Progress: RUNNING | Objects: 4468
+2026-09-09T15:43:08: Progress: RUNNING | Objects: 4468
+2026-09-09T15:43:11: Progress: RUNNING | Objects: 4468
+2026-09-09T15:43:15: Progress: RUNNING | Objects: 4474
+2026-09-09T15:43:18: Progress: RUNNING | Objects: 4587
+2026-09-09T15:43:21: Progress: RUNNING | Objects: 4776
+2026-09-09T15:43:25: Progress: RUNNING | Objects: 4969
+2026-09-09T15:43:28: Progress: RUNNING | Objects: 5180
+2026-09-09T15:43:32: Progress: RUNNING | Objects: 5389
+2026-09-09T15:43:35: Progress: RUNNING | Objects: 5586
+2026-09-09T15:43:39: Progress: RUNNING | Objects: 5789
+2026-09-09T15:43:42: Progress: RUNNING | Objects: 5977
+2026-09-09T15:43:45: Progress: RUNNING | Objects: 6161
+2026-09-09T15:43:49: Progress: RUNNING | Objects: 6360
+2026-09-09T15:43:52: Progress: RUNNING | Objects: 6562
+2026-09-09T15:43:56: Progress: RUNNING | Objects: 6749
+2026-09-09T15:43:59: Progress: RUNNING | Objects: 6951
+2026-09-09T15:44:02: Progress: RUNNING | Objects: 7147
+2026-09-09T15:44:06: Progress: RUNNING | Objects: 7347
+2026-09-09T15:44:09: Progress: RUNNING | Objects: 7546
+2026-09-09T15:44:13: Progress: RUNNING | Objects: 7745
+2026-09-09T15:44:16: Progress: RUNNING | Objects: 7943
+2026-09-09T15:44:20: Progress: RUNNING | Objects: 8138
+2026-09-09T15:44:23: Progress: RUNNING | Objects: 8336
+2026-09-09T15:44:26: Progress: RUNNING | Objects: 8537
+2026-09-09T15:44:30: Progress: RUNNING | Objects: 8733
+2026-09-09T15:44:33: Progress: RUNNING | Objects: 8920
+2026-09-09T15:44:37: Progress: RUNNING | Objects: 9121
+2026-09-09T15:44:40: Progress: RUNNING | Objects: 9317
+2026-09-09T15:44:44: Progress: RUNNING | Objects: 9511
+2026-09-09T15:44:47: Progress: RUNNING | Objects: 9703
+2026-09-09T15:44:50: Progress: RUNNING | Objects: 9898
+2026-09-09T15:44:54: Progress: RUNNING | Objects: 10100
+2026-09-09T15:44:57: Progress: RUNNING | Objects: 10296
+2026-09-09T15:45:01: Progress: RUNNING | Objects: 10494
+2026-09-09T15:45:04: Progress: RUNNING | Objects: 10689
+2026-09-09T15:45:07: Progress: RUNNING | Objects: 10874
+2026-09-09T15:45:12: Progress: RUNNING | Objects: 11141
+2026-09-09T15:45:16: Progress: RUNNING | Objects: 11303
+2026-09-09T15:45:19: Progress: RUNNING | Objects: 11443
+2026-09-09T15:45:22: Progress: RUNNING | Objects: 11596
+2026-09-09T15:45:26: Progress: RUNNING | Objects: 11742
+2026-09-09T15:45:29: Progress: RUNNING | Objects: 11819
+2026-09-09T15:45:33: Progress: RUNNING | Objects: 11858
+2026-09-09T15:45:36: Progress: RUNNING | Objects: 11897
+2026-09-09T15:45:39: Progress: RUNNING | Objects: 11935
+2026-09-09T15:45:43: Progress: COMPLETED | Objects: 11940
+2026-09-09T15:45:43: ✔ Completed: shopify_inventory_set_input.jsonl
+2026-09-09T15:45:43: 📊 Results:
+2026-09-09T15:45:43:    - Status: COMPLETED
+2026-09-09T15:45:43:    - Objects processed: 11940
+2026-09-09T15:45:43:    - Error code: None
+2026-09-09T15:45:43:    - Created at: 2026-09-09T07:40:07Z
+2026-09-09T15:45:43:    - Completed at: 2026-09-09T07:45:40Z
+2026-09-09T15:45:43: 📥 Downloading results from: https://storage.googleapis.com/shopify-tiers-assets-prod-us-east1/bulk-operation-outputs/ff3255e50399271dfb49c4c9c519?GoogleAccessId=assets-us-prod%40shopify-tiers.iam.gserviceaccount.com&Expires=1789544740&Signature=ULbiO9l%2Bo4iWzm6lZAwaNEt6qmGNYKKCxhWWAiKtJru7yXzm%2FOoDxahUCPOjGgAZPWRnyNZTU5y3buBTGZ4Sb74X3IviEevAwyGpKtCxFI25oBtzZcxz0IL5wwQh%2FyzBKkccwihDxrOLvACefz%2Bokspjc1HsHUQpauARrXN6f13XbX1vR%2BGPPhe6tl%2FJOCgwuln2yZBFxufpJjETdcV7dqZpfW8XnFrlFS1LU8bIzKJpAxElPd%2FdYRaxFcuyMaN4lxPS8majqMRiWjaHj5Pf7zkSUzgx6qj6tFzZVizdB2mxGM%2Fw65byKIvoVlRYba2LYsAtUaQh5AEYM%2BwnysTn9Q%3D%3D&response-content-disposition=attachment%3B+filename%3D%22staging-bulk-8430645772513.jsonl%22%3B+filename%2A%3DUTF-8%27%27staging-bulk-8430645772513.jsonl&response-content-type=application%2Fjsonl
+2026-09-09T15:45:46: ✅ Results saved to: C:\Users\user\Desktop\shopify-inventory-syncer\output\results_shopify_inventory_set_input.jsonl
+2026-09-09T15:45:46: 
+2026-09-09T15:45:46: 🎉 Processing complete.
+2026-09-09T15:45:46: ✓ Completed: node --env-file=.env ./js/update-inventory.js
+2026-09-09T15:45:46: 
+2026-09-09T15:45:46: ==================================================
+2026-09-09T15:45:46: ✓ All commands completed successfully!
+2026-09-09T16:00:00: Starting inventory sync sequence...
+2026-09-09T16:00:00: ==================================================
+2026-09-09T16:00:00: 
+2026-09-09T16:00:00: [1/7] Running: node --env-file=.env ./fetch/shopify.js
+2026-09-09T16:00:00: [Fetching] Shopify products...
+2026-09-09T16:00:04: [BATCH 1] +250 | Total: 250
+2026-09-09T16:00:06: [BATCH 2] +250 | Total: 500
+2026-09-09T16:00:08: [BATCH 3] +250 | Total: 750
+2026-09-09T16:00:10: [BATCH 4] +250 | Total: 1000
+2026-09-09T16:00:12: [BATCH 5] +250 | Total: 1250
+2026-09-09T16:00:14: [BATCH 6] +250 | Total: 1500
+2026-09-09T16:00:16: [BATCH 7] +250 | Total: 1750
+2026-09-09T16:00:18: [BATCH 8] +250 | Total: 2000
+2026-09-09T16:00:20: [BATCH 9] +250 | Total: 2250
+2026-09-09T16:00:22: [BATCH 10] +250 | Total: 2500
+2026-09-09T16:00:24: [BATCH 11] +250 | Total: 2750
+2026-09-09T16:00:27: [BATCH 12] +250 | Total: 3000
+2026-09-09T16:00:29: [BATCH 13] +124 | Total: 3124
+2026-09-09T16:00:29: [SUCCESS] 3124 products in 13 batches
+2026-09-09T16:00:29: ✓ Completed: node --env-file=.env ./fetch/shopify.js
+2026-09-09T16:00:29: 
+2026-09-09T16:00:29: [2/7] Running: node --env-file=.env ./fetch/ibm.js
+2026-09-09T16:00:29: Reading input SKUs...
+2026-09-09T16:00:29: Querying IBM database for 1194 unique SKUs...
+2026-09-09T16:00:33: Writing 11940 inventory records...
+2026-09-09T16:00:33: Saved output to C:\Users\user\Desktop\shopify-inventory-syncer\output\ibm-inventory.jsonl
+2026-09-09T16:00:33: ✓ Completed: node --env-file=.env ./fetch/ibm.js
+2026-09-09T16:00:33: 
+2026-09-09T16:00:33: [3/7] Running: node --env-file=.env ./fetch/sql-server.js
+2026-09-09T16:00:34: [CONNECTED] 11500 | CEBU
+2026-09-09T16:00:34: [SOLD]: 0, [REVERSALS]: 0
+2026-09-09T16:00:34: [CONNECTED] 12100 | CQLC
+2026-09-09T16:00:34: [SOLD]: 6, [REVERSALS]: 0
+2026-09-09T16:00:34: [CONNECTED] 13400 | CENTRALE
+2026-09-09T16:00:34: [SOLD]: 16, [REVERSALS]: 0
+2026-09-09T16:00:34: [CONNECTED] 12700 | ZAMBOANGA
+2026-09-09T16:00:34: [SOLD]: 11, [REVERSALS]: 0
+2026-09-09T16:00:35: [CONNECTED] 14300 | TOLEDO
+2026-09-09T16:00:35: [SOLD]: 13, [REVERSALS]: 0
+2026-09-09T16:00:36: [CONNECTED] 12000 | TAYTAY
+2026-09-09T16:00:36: [SOLD]: 1, [REVERSALS]: 0
+2026-09-09T16:00:36: [CONNECTED] 13600 | CARCAR
+2026-09-09T16:00:36: [SOLD]: 6, [REVERSALS]: 0
+2026-09-09T16:00:36: [CONNECTED] 11200 | CARMEN
+2026-09-09T16:00:36: [SOLD]: 8, [REVERSALS]: 0
+2026-09-09T16:00:36: [CONNECTED] 11400 | PALAO
+2026-09-09T16:00:36: [SOLD]: 18, [REVERSALS]: 0
+2026-09-09T16:00:36: [CONNECTED] 10200 | ILIGAN
+2026-09-09T16:00:36: [SOLD]: 5, [REVERSALS]: 0
+2026-09-09T16:00:36: [CONNECTED] 10300 | VALENCIA
+2026-09-09T16:00:36: [SOLD]: 14, [REVERSALS]: 0
+2026-09-09T16:00:36: [CONNECTED] 11300 | CAPISTRANO
+2026-09-09T16:00:36: [SOLD]: 8, [REVERSALS]: 0
+2026-09-09T16:00:36: [CONNECTED] 13000 | PARKWAY
+2026-09-09T16:00:36: [SOLD]: 3, [REVERSALS]: 0
+2026-09-09T16:00:36: [CONNECTED] 10400 | BUTUAN
+2026-09-09T16:00:36: [SOLD]: 14, [REVERSALS]: 0
+2026-09-09T16:00:37: [CONNECTED] 11000 | OSMENA
+2026-09-09T16:00:37: [SOLD]: 3, [REVERSALS]: 0
+2026-09-09T16:00:37: [CONNECTED] 14000 | CABADBARAN
+2026-09-09T16:00:37: [SOLD]: 10, [REVERSALS]: 0
+2026-09-09T16:00:37: [CONNECTED] 12400 | TALISAY
+2026-09-09T16:00:37: [SOLD]: 7, [REVERSALS]: 0
+2026-09-09T16:00:37: [CONNECTED] 10500 | PAGADIAN
+2026-09-09T16:00:37: [SOLD]: 17, [REVERSALS]: 0
+2026-09-09T16:00:37: [CONNECTED] 10100 | CAGAYAN
+2026-09-09T16:00:37: [SOLD]: 25, [REVERSALS]: 1
+2026-09-09T16:00:37: [CONNECTED] 10700 | SURIGAO
+2026-09-09T16:00:37: [SOLD]: 16, [REVERSALS]: 0
+2026-09-09T16:00:37: Fetched 20/20 stores
+2026-09-09T16:00:37: Saved to C:\Users\user\Desktop\shopify-inventory-syncer\output\cms_data.json
+2026-09-09T16:00:37: ✓ Completed: node --env-file=.env ./fetch/sql-server.js
+2026-09-09T16:00:37: 
+2026-09-09T16:00:37: [4/7] Running: node --env-file=.env ./js/aggregate-cms-data.js
+2026-09-09T16:00:37: [READING] Loading raw data from: C:\Users\user\Desktop\shopify-inventory-syncer\output\cms_data.json
+2026-09-09T16:00:37: [SUCCESS] Wrote 191 flat JSONL rows to: C:\Users\user\Desktop\shopify-inventory-syncer\output\aggregated_cms_data.jsonl
+2026-09-09T16:00:37: ✓ Completed: node --env-file=.env ./js/aggregate-cms-data.js
+2026-09-09T16:00:37: 
+2026-09-09T16:00:37: [5/7] Running: node --env-file=.env ./js/merge-inventory.js
+2026-09-09T16:00:38: Inventory merged successfully: C:\Users\user\Desktop\shopify-inventory-syncer\output\final_inventory.jsonl
+2026-09-09T16:00:38: ✓ Completed: node --env-file=.env ./js/merge-inventory.js
+2026-09-09T16:00:38: 
+2026-09-09T16:00:38: [6/7] Running: node --env-file=.env ./js/generate-shopify-jsonl.js
+2026-09-09T16:00:39: Shopify inventory payload generated: C:\Users\user\Desktop\shopify-inventory-syncer\output\shopify_inventory_set_input.jsonl
+2026-09-09T16:00:39: ✓ Completed: node --env-file=.env ./js/generate-shopify-jsonl.js
+2026-09-09T16:00:39: 
+2026-09-09T16:00:39: [7/7] Running: node --env-file=.env ./js/update-inventory.js
+2026-09-09T16:00:39: 🚀 Executing bulk job: shopify_inventory_set_input.jsonl
+2026-09-09T16:00:42: Job Started [ID: gid://shopify/BulkOperation/8430722023649]
+2026-09-09T16:00:42: Progress: CREATED | Objects: 0
+2026-09-09T16:00:46: Progress: RUNNING | Objects: 150
+2026-09-09T16:00:49: Progress: RUNNING | Objects: 350
+2026-09-09T16:00:52: Progress: RUNNING | Objects: 547
+2026-09-09T16:00:56: Progress: RUNNING | Objects: 751
+2026-09-09T16:00:59: Progress: RUNNING | Objects: 944
+2026-09-09T16:01:03: Progress: RUNNING | Objects: 1163
+2026-09-09T16:01:06: Progress: RUNNING | Objects: 1369
+2026-09-09T16:01:10: Progress: RUNNING | Objects: 1576
+2026-09-09T16:01:13: Progress: RUNNING | Objects: 1782
+2026-09-09T16:01:16: Progress: RUNNING | Objects: 1992
+2026-09-09T16:01:20: Progress: RUNNING | Objects: 2202
+2026-09-09T16:01:24: Progress: RUNNING | Objects: 2399
+2026-09-09T16:01:27: Progress: RUNNING | Objects: 2653
+2026-09-09T16:01:31: Progress: RUNNING | Objects: 2857
+2026-09-09T16:01:34: Progress: RUNNING | Objects: 3042
+2026-09-09T16:01:38: Progress: RUNNING | Objects: 3252
+2026-09-09T16:01:41: Progress: RUNNING | Objects: 3462
+2026-09-09T16:01:44: Progress: RUNNING | Objects: 3664
+2026-09-09T16:01:48: Progress: RUNNING | Objects: 3874
+2026-09-09T16:01:51: Progress: RUNNING | Objects: 4060
+2026-09-09T16:01:55: Progress: RUNNING | Objects: 4266
+2026-09-09T16:01:58: Progress: RUNNING | Objects: 4481
+2026-09-09T16:02:01: Progress: RUNNING | Objects: 4693
+2026-09-09T16:02:05: Progress: RUNNING | Objects: 4893
+2026-09-09T16:02:08: Progress: RUNNING | Objects: 5107
+2026-09-09T16:02:12: Progress: RUNNING | Objects: 5313
+2026-09-09T16:02:15: Progress: RUNNING | Objects: 5507
+2026-09-09T16:02:18: Progress: RUNNING | Objects: 5715
+2026-09-09T16:02:22: Progress: RUNNING | Objects: 5920
+2026-09-09T16:02:25: Progress: RUNNING | Objects: 6120
+2026-09-09T16:02:29: Progress: RUNNING | Objects: 6325
+2026-09-09T16:02:32: Progress: RUNNING | Objects: 6535
+2026-09-09T16:02:35: Progress: RUNNING | Objects: 6735
+2026-09-09T16:02:39: Progress: RUNNING | Objects: 6935
+2026-09-09T16:02:42: Progress: RUNNING | Objects: 7123
+2026-09-09T16:02:45: Progress: RUNNING | Objects: 7313
+2026-09-09T16:02:49: Progress: RUNNING | Objects: 7521
+2026-09-09T16:02:52: Progress: RUNNING | Objects: 7720
+2026-09-09T16:02:56: Progress: RUNNING | Objects: 7932
+2026-09-09T16:02:59: Progress: RUNNING | Objects: 8140
+2026-09-09T16:03:02: Progress: RUNNING | Objects: 8348
+2026-09-09T16:03:06: Progress: RUNNING | Objects: 8559
+2026-09-09T16:03:09: Progress: RUNNING | Objects: 8776
+2026-09-09T16:03:13: Progress: RUNNING | Objects: 8988
+2026-09-09T16:03:16: Progress: RUNNING | Objects: 9193
+2026-09-09T16:03:19: Progress: RUNNING | Objects: 9411
+2026-09-09T16:03:23: Progress: RUNNING | Objects: 9626
+2026-09-09T16:03:26: Progress: RUNNING | Objects: 9830
+2026-09-09T16:03:30: Progress: RUNNING | Objects: 10044
+2026-09-09T16:03:33: Progress: RUNNING | Objects: 10244
+2026-09-09T16:03:36: Progress: RUNNING | Objects: 10455
+2026-09-09T16:03:40: Progress: RUNNING | Objects: 10669
+2026-09-09T16:03:43: Progress: RUNNING | Objects: 10873
+2026-09-09T16:03:47: Progress: RUNNING | Objects: 11060
+2026-09-09T16:03:50: Progress: RUNNING | Objects: 11205
+2026-09-09T16:03:53: Progress: RUNNING | Objects: 11329
+2026-09-09T16:03:57: Progress: RUNNING | Objects: 11452
+2026-09-09T16:04:00: Progress: RUNNING | Objects: 11572
+2026-09-09T16:04:04: Progress: RUNNING | Objects: 11659
+2026-09-09T16:04:07: Progress: RUNNING | Objects: 11703
+2026-09-09T16:04:10: Progress: RUNNING | Objects: 11736
+2026-09-09T16:04:14: Progress: RUNNING | Objects: 11771
+2026-09-09T16:04:17: Progress: RUNNING | Objects: 11805
+2026-09-09T16:04:20: Progress: RUNNING | Objects: 11838
+2026-09-09T16:04:24: Progress: RUNNING | Objects: 11873
+2026-09-09T16:04:27: Progress: RUNNING | Objects: 11902
+2026-09-09T16:04:31: Progress: RUNNING | Objects: 11936
+2026-09-09T16:04:34: Progress: COMPLETED | Objects: 11940
+2026-09-09T16:04:34: 
+2026-09-09T16:04:34: ✔ Completed: shopify_inventory_set_input.jsonl
+2026-09-09T16:04:34: 📊 Results:
+2026-09-09T16:04:34:    - Status: COMPLETED
+2026-09-09T16:04:34:    - Objects processed: 11940
+2026-09-09T16:04:34:    - Error code: None
+2026-09-09T16:04:34:    - Created at: 2026-09-09T08:00:39Z
+2026-09-09T16:04:34:    - Completed at: 2026-09-09T08:04:32Z
+2026-09-09T16:04:34: 📥 Downloading results from: https://storage.googleapis.com/shopify-tiers-assets-prod-us-east1/bulk-operation-outputs/943bfa323b64a0593b88bdada289?GoogleAccessId=assets-us-prod%40shopify-tiers.iam.gserviceaccount.com&Expires=1789545872&Signature=covCO8xgONDBwkM4e%2Fzf8Tk987%2BKu2TYLsV3W0i3xfEkpzOItJrewb7q2L7fyTnY8iilqPzo5bbI1VLUrz2q4IvmDG6Ke8wxT5SuNVIb35a439j%2BqGi%2FcbczwwXkuesqIOK79ZOLQILden1PeDE%2Fqu4%2BpeZQYato8%2FQtgzUOROYrHgZhdBBp%2Bz%2FHcJGTmT10r01xqHEvt340vK4XLvpJLVaQR9SZ9S2vLr2K5WKZrY1vOft%2FxftnvOfLmwvzR1kX8TganhXv45vTWZakuW1rXg%2FPZO8WEwYHGAR0aAQC38%2FPoge4AkQAyLA4VryTY%2FjuoH%2F10OkHdlylcGsabaJklg%3D%3D&response-content-disposition=attachment%3B+filename%3D%22staging-bulk-8430722023649.jsonl%22%3B+filename%2A%3DUTF-8%27%27staging-bulk-8430722023649.jsonl&response-content-type=application%2Fjsonl
+2026-09-09T16:04:37: ✅ Results saved to: C:\Users\user\Desktop\shopify-inventory-syncer\output\results_shopify_inventory_set_input.jsonl
+2026-09-09T16:04:37: 
+2026-09-09T16:04:37: 🎉 Processing complete.
+2026-09-09T16:04:37: ✓ Completed: node --env-file=.env ./js/update-inventory.js
+2026-09-09T16:04:37: 
+2026-09-09T16:04:37: ==================================================
+2026-09-09T16:04:37: ✓ All commands completed successfully!
+2026-09-09T16:30:00: Starting inventory sync sequence...
+2026-09-09T16:30:00: ==================================================
+2026-09-09T16:30:00: 
+2026-09-09T16:30:00: [1/7] Running: node --env-file=.env ./fetch/shopify.js
+2026-09-09T16:30:00: [Fetching] Shopify products...
+2026-09-09T16:30:02: [BATCH 1] +250 | Total: 250
+2026-09-09T16:30:05: [BATCH 2] +250 | Total: 500
+2026-09-09T16:30:07: [BATCH 3] +250 | Total: 750
+2026-09-09T16:30:09: [BATCH 4] +250 | Total: 1000
+2026-09-09T16:30:12: [BATCH 5] +250 | Total: 1250
+2026-09-09T16:30:14: [BATCH 6] +250 | Total: 1500
+2026-09-09T16:30:16: [BATCH 7] +250 | Total: 1750
+2026-09-09T16:30:18: [BATCH 8] +250 | Total: 2000
+2026-09-09T16:30:20: [BATCH 9] +250 | Total: 2250
+2026-09-09T16:30:22: [BATCH 10] +250 | Total: 2500
+2026-09-09T16:30:25: [BATCH 11] +250 | Total: 2750
+2026-09-09T16:30:26: [BATCH 12] +250 | Total: 3000
+2026-09-09T16:30:28: [BATCH 13] +124 | Total: 3124
+2026-09-09T16:30:28: [SUCCESS] 3124 products in 13 batches
+2026-09-09T16:30:28: ✓ Completed: node --env-file=.env ./fetch/shopify.js
+2026-09-09T16:30:28: 
+2026-09-09T16:30:28: [2/7] Running: node --env-file=.env ./fetch/ibm.js
+2026-09-09T16:30:28: Reading input SKUs...
+2026-09-09T16:30:28: Querying IBM database for 1194 unique SKUs...
+2026-09-09T16:30:31: Writing 11940 inventory records...
+2026-09-09T16:30:31: Saved output to C:\Users\user\Desktop\shopify-inventory-syncer\output\ibm-inventory.jsonl
+2026-09-09T16:30:31: ✓ Completed: node --env-file=.env ./fetch/ibm.js
+2026-09-09T16:30:31: 
+2026-09-09T16:30:31: [3/7] Running: node --env-file=.env ./fetch/sql-server.js
+2026-09-09T16:30:32: [CONNECTED] 11500 | CEBU
+2026-09-09T16:30:32: [SOLD]: 0, [REVERSALS]: 0
+2026-09-09T16:30:32: [CONNECTED] 12100 | CQLC
+2026-09-09T16:30:32: [SOLD]: 7, [REVERSALS]: 0
+2026-09-09T16:30:32: [CONNECTED] 13400 | CENTRALE
+2026-09-09T16:30:32: [SOLD]: 17, [REVERSALS]: 0
+2026-09-09T16:30:32: [CONNECTED] 10500 | PAGADIAN
+2026-09-09T16:30:32: [SOLD]: 18, [REVERSALS]: 0
+2026-09-09T16:30:32: [CONNECTED] 12700 | ZAMBOANGA
+2026-09-09T16:30:32: [SOLD]: 12, [REVERSALS]: 0
+2026-09-09T16:30:33: [CONNECTED] 14300 | TOLEDO
+2026-09-09T16:30:33: [SOLD]: 14, [REVERSALS]: 0
+2026-09-09T16:30:33: [CONNECTED] 13600 | CARCAR
+2026-09-09T16:30:33: [SOLD]: 6, [REVERSALS]: 0
+2026-09-09T16:30:34: [CONNECTED] 12400 | TALISAY
+2026-09-09T16:30:34: [SOLD]: 9, [REVERSALS]: 0
+2026-09-09T16:30:34: [CONNECTED] 11200 | CARMEN
+2026-09-09T16:30:34: [SOLD]: 8, [REVERSALS]: 0
+2026-09-09T16:30:34: [CONNECTED] 10200 | ILIGAN
+2026-09-09T16:30:34: [SOLD]: 5, [REVERSALS]: 0
+2026-09-09T16:30:34: [CONNECTED] 12000 | TAYTAY
+2026-09-09T16:30:34: [SOLD]: 1, [REVERSALS]: 0
+2026-09-09T16:30:34: [CONNECTED] 11400 | PALAO
+2026-09-09T16:30:34: [SOLD]: 21, [REVERSALS]: 0
+2026-09-09T16:30:34: [CONNECTED] 10700 | SURIGAO
+2026-09-09T16:30:34: [SOLD]: 18, [REVERSALS]: 0
+2026-09-09T16:30:34: [CONNECTED] 13000 | PARKWAY
+2026-09-09T16:30:34: [SOLD]: 4, [REVERSALS]: 0
+2026-09-09T16:30:34: [CONNECTED] 11300 | CAPISTRANO
+2026-09-09T16:30:34: [SOLD]: 9, [REVERSALS]: 0
+2026-09-09T16:30:34: [CONNECTED] 10300 | VALENCIA
+2026-09-09T16:30:34: [SOLD]: 14, [REVERSALS]: 1
+2026-09-09T16:30:34: [CONNECTED] 11000 | OSMENA
+2026-09-09T16:30:34: [SOLD]: 4, [REVERSALS]: 0
+2026-09-09T16:30:34: [CONNECTED] 10400 | BUTUAN
+2026-09-09T16:30:34: [SOLD]: 16, [REVERSALS]: 0
+2026-09-09T16:30:34: [CONNECTED] 14000 | CABADBARAN
+2026-09-09T16:30:34: [SOLD]: 11, [REVERSALS]: 0
+2026-09-09T16:30:38: [CONNECTED] 10100 | CAGAYAN
+2026-09-09T16:30:38: [SOLD]: 25, [REVERSALS]: 1
+2026-09-09T16:30:38: Fetched 20/20 stores
+2026-09-09T16:30:38: Saved to C:\Users\user\Desktop\shopify-inventory-syncer\output\cms_data.json
+2026-09-09T16:30:38: ✓ Completed: node --env-file=.env ./fetch/sql-server.js
+2026-09-09T16:30:38: 
+2026-09-09T16:30:38: [4/7] Running: node --env-file=.env ./js/aggregate-cms-data.js
+2026-09-09T16:30:38: [READING] Loading raw data from: C:\Users\user\Desktop\shopify-inventory-syncer\output\cms_data.json
+2026-09-09T16:30:38: [SUCCESS] Wrote 207 flat JSONL rows to: C:\Users\user\Desktop\shopify-inventory-syncer\output\aggregated_cms_data.jsonl
+2026-09-09T16:30:38: ✓ Completed: node --env-file=.env ./js/aggregate-cms-data.js
+2026-09-09T16:30:38: 
+2026-09-09T16:30:38: [5/7] Running: node --env-file=.env ./js/merge-inventory.js
+2026-09-09T16:30:38: Inventory merged successfully: C:\Users\user\Desktop\shopify-inventory-syncer\output\final_inventory.jsonl
+2026-09-09T16:30:38: ✓ Completed: node --env-file=.env ./js/merge-inventory.js
+2026-09-09T16:30:38: 
+2026-09-09T16:30:38: [6/7] Running: node --env-file=.env ./js/generate-shopify-jsonl.js
+2026-09-09T16:30:39: Shopify inventory payload generated: C:\Users\user\Desktop\shopify-inventory-syncer\output\shopify_inventory_set_input.jsonl
+2026-09-09T16:30:39: ✓ Completed: node --env-file=.env ./js/generate-shopify-jsonl.js
+2026-09-09T16:30:39: 
+2026-09-09T16:30:39: [7/7] Running: node --env-file=.env ./js/update-inventory.js
+2026-09-09T16:30:39: 🚀 Executing bulk job: shopify_inventory_set_input.jsonl
+2026-09-09T16:30:43: Job Started [ID: gid://shopify/BulkOperation/8430839595233]
+2026-09-09T16:30:43: Progress: CREATED | Objects: 0
+2026-09-09T16:30:47: Progress: RUNNING | Objects: 138
+2026-09-09T16:30:50: Progress: RUNNING | Objects: 347
+2026-09-09T16:30:53: Progress: RUNNING | Objects: 556
+2026-09-09T16:30:57: Progress: RUNNING | Objects: 769
+2026-09-09T16:31:00: Progress: RUNNING | Objects: 986
+2026-09-09T16:31:04: Progress: RUNNING | Objects: 1196
+2026-09-09T16:31:07: Progress: RUNNING | Objects: 1407
+2026-09-09T16:31:10: Progress: RUNNING | Objects: 1617
+2026-09-09T16:31:14: Progress: RUNNING | Objects: 1819
+2026-09-09T16:31:17: Progress: RUNNING | Objects: 2014
+2026-09-09T16:31:21: Progress: RUNNING | Objects: 2220
+2026-09-09T16:31:24: Progress: RUNNING | Objects: 2437
+2026-09-09T16:31:27: Progress: RUNNING | Objects: 2643
+2026-09-09T16:31:31: Progress: RUNNING | Objects: 2861
+2026-09-09T16:31:34: Progress: RUNNING | Objects: 3065
+2026-09-09T16:31:38: Progress: RUNNING | Objects: 3277
+2026-09-09T16:31:41: Progress: RUNNING | Objects: 3487
+2026-09-09T16:31:44: Progress: RUNNING | Objects: 3700
+2026-09-09T16:31:48: Progress: RUNNING | Objects: 3911
+2026-09-09T16:31:51: Progress: RUNNING | Objects: 4123
+2026-09-09T16:31:55: Progress: RUNNING | Objects: 4345
+2026-09-09T16:31:58: Progress: RUNNING | Objects: 4561
+2026-09-09T16:32:02: Progress: RUNNING | Objects: 4758
+2026-09-09T16:32:05: Progress: RUNNING | Objects: 4940
+2026-09-09T16:32:08: Progress: RUNNING | Objects: 5128
+2026-09-09T16:32:12: Progress: RUNNING | Objects: 5341
+2026-09-09T16:32:15: Progress: RUNNING | Objects: 5556
+2026-09-09T16:32:19: Progress: RUNNING | Objects: 5767
+2026-09-09T16:32:22: Progress: RUNNING | Objects: 5989
+2026-09-09T16:32:25: Progress: RUNNING | Objects: 6207
+2026-09-09T16:32:29: Progress: RUNNING | Objects: 6414
+2026-09-09T16:32:32: Progress: RUNNING | Objects: 6618
+2026-09-09T16:32:36: Progress: RUNNING | Objects: 6825
+2026-09-09T16:32:39: Progress: RUNNING | Objects: 7023
+2026-09-09T16:32:42: Progress: RUNNING | Objects: 7222
+2026-09-09T16:32:46: Progress: RUNNING | Objects: 7398
+2026-09-09T16:32:49: Progress: RUNNING | Objects: 7601
+2026-09-09T16:32:53: Progress: RUNNING | Objects: 7808
+2026-09-09T16:32:56: Progress: RUNNING | Objects: 8021
+2026-09-09T16:32:59: Progress: RUNNING | Objects: 8237
+2026-09-09T16:33:03: Progress: RUNNING | Objects: 8453
+2026-09-09T16:33:06: Progress: RUNNING | Objects: 8659
+2026-09-09T16:33:10: Progress: RUNNING | Objects: 8864
+2026-09-09T16:33:13: Progress: RUNNING | Objects: 9077
+2026-09-09T16:33:16: Progress: RUNNING | Objects: 9291
+2026-09-09T16:33:20: Progress: RUNNING | Objects: 9500
+2026-09-09T16:33:23: Progress: RUNNING | Objects: 9716
+2026-09-09T16:33:27: Progress: RUNNING | Objects: 9911
+2026-09-09T16:33:30: Progress: RUNNING | Objects: 10131
+2026-09-09T16:33:33: Progress: RUNNING | Objects: 10353
+2026-09-09T16:33:37: Progress: RUNNING | Objects: 10569
+2026-09-09T16:33:40: Progress: RUNNING | Objects: 10766
+2026-09-09T16:33:44: Progress: RUNNING | Objects: 10976
+2026-09-09T16:33:47: Progress: RUNNING | Objects: 11189
+2026-09-09T16:33:50: Progress: RUNNING | Objects: 11368
+2026-09-09T16:33:54: Progress: RUNNING | Objects: 11542
+2026-09-09T16:33:57: Progress: RUNNING | Objects: 11667
+2026-09-09T16:34:01: Progress: RUNNING | Objects: 11788
+2026-09-09T16:34:04: Progress: RUNNING | Objects: 11902
+2026-09-09T16:34:08: Progress: RUNNING | Objects: 11940
+2026-09-09T16:34:11: Progress: COMPLETED | Objects: 11940
+2026-09-09T16:34:11: ✔ Completed: shopify_inventory_set_input.jsonl
+2026-09-09T16:34:11: 📊 Results:
+2026-09-09T16:34:11:    - Status: COMPLETED
+2026-09-09T16:34:11:    - Objects processed: 11940
+2026-09-09T16:34:11:    - Error code: None
+2026-09-09T16:34:11:    - Created at: 2026-09-09T08:30:40Z
+2026-09-09T16:34:11:    - Completed at: 2026-09-09T08:34:07Z
+2026-09-09T16:34:11: 📥 Downloading results from: https://storage.googleapis.com/shopify-tiers-assets-prod-us-east1/bulk-operation-outputs/202ac8f9a4152fd030e5eb8339de?GoogleAccessId=assets-us-prod%40shopify-tiers.iam.gserviceaccount.com&Expires=1789547646&Signature=efIutOVNnbWQPydltvha9rYm%2F1kMlrDMn1XIRaOplip1%2BWujP9nZlnsZZ5aQW%2BpJec%2BzA0SXKumgoS7OMXv2Kvob5ChTf49DtoqwvOuLg3ue%2BFQmLMImEXsDSuopxU%2FjdPy7%2Fh%2BmWHmRAuI7m1h9XbUaUyEnlqseCT0aRCH7IxLfn8xRdt6m8XoBBhk4wovlA4cufetGrcurSRH2VqCQlbLSDBJZinlT%2Bdi1JRGt1tg9jOJhz6L4U3o3WtZOdGmQj%2B9%2FTnefXVYkVEA0s5OoLprxlc9GMtZOFxycafhdRHH5CggWHHYahOlBIOxqfmSVKEICuYDhTcqE0jchKMB9Dw%3D%3D&response-content-disposition=attachment%3B+filename%3D%22staging-bulk-8430839595233.jsonl%22%3B+filename%2A%3DUTF-8%27%27staging-bulk-8430839595233.jsonl&response-content-type=application%2Fjsonl
+2026-09-09T16:34:13: ✅ Results saved to: C:\Users\user\Desktop\shopify-inventory-syncer\output\results_shopify_inventory_set_input.jsonl
+2026-09-09T16:34:13: 
+2026-09-09T16:34:13: 🎉 Processing complete.
+2026-09-09T16:34:13: ✓ Completed: node --env-file=.env ./js/update-inventory.js
+2026-09-09T16:34:13: 
+2026-09-09T16:34:13: ==================================================
+2026-09-09T16:34:13: ✓ All commands completed successfully!
+2026-09-09T17:00:00: Starting inventory sync sequence...
+2026-09-09T17:00:00: ==================================================
+2026-09-09T17:00:00: 
+2026-09-09T17:00:00: [1/7] Running: node --env-file=.env ./fetch/shopify.js
+2026-09-09T17:00:00: [Fetching] Shopify products...
+2026-09-09T17:00:03: [BATCH 1] +250 | Total: 250
+2026-09-09T17:00:05: [BATCH 2] +250 | Total: 500
+2026-09-09T17:00:08: [BATCH 3] +250 | Total: 750
+2026-09-09T17:00:10: [BATCH 4] +250 | Total: 1000
+2026-09-09T17:00:12: [BATCH 5] +250 | Total: 1250
+2026-09-09T17:00:15: [BATCH 6] +250 | Total: 1500
+2026-09-09T17:00:17: [BATCH 7] +250 | Total: 1750
+2026-09-09T17:00:19: [BATCH 8] +250 | Total: 2000
+2026-09-09T17:00:21: [BATCH 9] +250 | Total: 2250
+2026-09-09T17:00:24: [BATCH 10] +250 | Total: 2500
+2026-09-09T17:00:26: [BATCH 11] +250 | Total: 2750
+2026-09-09T17:00:28: [BATCH 12] +250 | Total: 3000
+2026-09-09T17:00:29: [BATCH 13] +124 | Total: 3124
+2026-09-09T17:00:29: [SUCCESS] 3124 products in 13 batches
+2026-09-09T17:00:29: ✓ Completed: node --env-file=.env ./fetch/shopify.js
+2026-09-09T17:00:29: 
+2026-09-09T17:00:29: [2/7] Running: node --env-file=.env ./fetch/ibm.js
+2026-09-09T17:00:30: Reading input SKUs...
+2026-09-09T17:00:30: Querying IBM database for 1194 unique SKUs...
+2026-09-09T17:00:33: Writing 11940 inventory records...
+2026-09-09T17:00:33: Saved output to C:\Users\user\Desktop\shopify-inventory-syncer\output\ibm-inventory.jsonl
+2026-09-09T17:00:33: ✓ Completed: node --env-file=.env ./fetch/ibm.js
+2026-09-09T17:00:33: 
+2026-09-09T17:00:33: [3/7] Running: node --env-file=.env ./fetch/sql-server.js
+2026-09-09T17:00:34: [CONNECTED] 12100 | CQLC
+2026-09-09T17:00:34: [SOLD]: 7, [REVERSALS]: 0
+2026-09-09T17:00:34: [CONNECTED] 11500 | CEBU
+2026-09-09T17:00:34: [SOLD]: 0, [REVERSALS]: 0
+2026-09-09T17:00:34: [CONNECTED] 13400 | CENTRALE
+2026-09-09T17:00:34: [SOLD]: 17, [REVERSALS]: 0
+2026-09-09T17:00:34: [CONNECTED] 10500 | PAGADIAN
+2026-09-09T17:00:34: [SOLD]: 19, [REVERSALS]: 0
+2026-09-09T17:00:34: [CONNECTED] 12700 | ZAMBOANGA
+2026-09-09T17:00:34: [SOLD]: 14, [REVERSALS]: 0
+2026-09-09T17:00:34: [CONNECTED] 14300 | TOLEDO
+2026-09-09T17:00:34: [SOLD]: 15, [REVERSALS]: 0
+2026-09-09T17:00:35: [CONNECTED] 12000 | TAYTAY
+2026-09-09T17:00:35: [SOLD]: 1, [REVERSALS]: 0
+2026-09-09T17:00:35: [CONNECTED] 13600 | CARCAR
+2026-09-09T17:00:35: [SOLD]: 9, [REVERSALS]: 0
+2026-09-09T17:00:35: [CONNECTED] 12400 | TALISAY
+2026-09-09T17:00:35: [SOLD]: 10, [REVERSALS]: 0
+2026-09-09T17:00:35: [CONNECTED] 10200 | ILIGAN
+2026-09-09T17:00:35: [SOLD]: 5, [REVERSALS]: 0
+2026-09-09T17:00:35: [CONNECTED] 11400 | PALAO
+2026-09-09T17:00:35: [SOLD]: 23, [REVERSALS]: 0
+2026-09-09T17:00:36: [CONNECTED] 13000 | PARKWAY
+2026-09-09T17:00:36: [SOLD]: 5, [REVERSALS]: 0
+2026-09-09T17:00:36: [CONNECTED] 10700 | SURIGAO
+2026-09-09T17:00:36: [SOLD]: 19, [REVERSALS]: 0
+2026-09-09T17:00:36: [CONNECTED] 14000 | CABADBARAN
+2026-09-09T17:00:36: [SOLD]: 12, [REVERSALS]: 0
+2026-09-09T17:00:36: [CONNECTED] 10300 | VALENCIA
+2026-09-09T17:00:36: [SOLD]: 16, [REVERSALS]: 1
+2026-09-09T17:00:36: [CONNECTED] 11300 | CAPISTRANO
+2026-09-09T17:00:36: [SOLD]: 12, [REVERSALS]: 0
+2026-09-09T17:00:36: [CONNECTED] 11200 | CARMEN
+2026-09-09T17:00:36: [SOLD]: 10, [REVERSALS]: 0
+2026-09-09T17:00:36: [CONNECTED] 11000 | OSMENA
+2026-09-09T17:00:36: [SOLD]: 4, [REVERSALS]: 0
+2026-09-09T17:00:36: [CONNECTED] 10400 | BUTUAN
+2026-09-09T17:00:36: [SOLD]: 17, [REVERSALS]: 0
+2026-09-09T17:00:37: [CONNECTED] 10100 | CAGAYAN
+2026-09-09T17:00:37: [SOLD]: 28, [REVERSALS]: 1
+2026-09-09T17:00:37: Fetched 20/20 stores
+2026-09-09T17:00:37: Saved to C:\Users\user\Desktop\shopify-inventory-syncer\output\cms_data.json
+2026-09-09T17:00:37: ✓ Completed: node --env-file=.env ./fetch/sql-server.js
+2026-09-09T17:00:37: 
+2026-09-09T17:00:37: [4/7] Running: node --env-file=.env ./js/aggregate-cms-data.js
+2026-09-09T17:00:37: [READING] Loading raw data from: C:\Users\user\Desktop\shopify-inventory-syncer\output\cms_data.json
+2026-09-09T17:00:37: [SUCCESS] Wrote 227 flat JSONL rows to: C:\Users\user\Desktop\shopify-inventory-syncer\output\aggregated_cms_data.jsonl
+2026-09-09T17:00:37: ✓ Completed: node --env-file=.env ./js/aggregate-cms-data.js
+2026-09-09T17:00:37: 
+2026-09-09T17:00:37: [5/7] Running: node --env-file=.env ./js/merge-inventory.js
+2026-09-09T17:00:38: Inventory merged successfully: C:\Users\user\Desktop\shopify-inventory-syncer\output\final_inventory.jsonl
+2026-09-09T17:00:38: ✓ Completed: node --env-file=.env ./js/merge-inventory.js
+2026-09-09T17:00:38: 
+2026-09-09T17:00:38: [6/7] Running: node --env-file=.env ./js/generate-shopify-jsonl.js
+2026-09-09T17:00:39: Shopify inventory payload generated: C:\Users\user\Desktop\shopify-inventory-syncer\output\shopify_inventory_set_input.jsonl
+2026-09-09T17:00:39: ✓ Completed: node --env-file=.env ./js/generate-shopify-jsonl.js
+2026-09-09T17:00:39: 
+2026-09-09T17:00:39: [7/7] Running: node --env-file=.env ./js/update-inventory.js
+2026-09-09T17:00:39: 🚀 Executing bulk job: shopify_inventory_set_input.jsonl
+2026-09-09T17:00:43: Job Started [ID: gid://shopify/BulkOperation/8430950613217]
+2026-09-09T17:00:43: Progress: CREATED | Objects: 0
+2026-09-09T17:00:46: Progress: RUNNING | Objects: 143
+2026-09-09T17:00:50: Progress: RUNNING | Objects: 336
+2026-09-09T17:00:53: Progress: RUNNING | Objects: 516
+2026-09-09T17:00:57: Progress: RUNNING | Objects: 709
+2026-09-09T17:01:01: Progress: RUNNING | Objects: 911
+2026-09-09T17:01:04: Progress: RUNNING | Objects: 1099
+2026-09-09T17:01:08: Progress: RUNNING | Objects: 1300
+2026-09-09T17:01:11: Progress: RUNNING | Objects: 1496
+2026-09-09T17:01:15: Progress: RUNNING | Objects: 1695
+2026-09-09T17:01:18: Progress: RUNNING | Objects: 1892
+2026-09-09T17:01:21: Progress: RUNNING | Objects: 2078
+2026-09-09T17:01:25: Progress: RUNNING | Objects: 2272
+2026-09-09T17:01:28: Progress: RUNNING | Objects: 2453
+2026-09-09T17:01:32: Progress: RUNNING | Objects: 2651
+2026-09-09T17:01:35: Progress: RUNNING | Objects: 2841
+2026-09-09T17:01:38: Progress: RUNNING | Objects: 3033
+2026-09-09T17:01:42: Progress: RUNNING | Objects: 3222
+2026-09-09T17:01:45: Progress: RUNNING | Objects: 3416
+2026-09-09T17:01:49: Progress: RUNNING | Objects: 3603
+2026-09-09T17:01:52: Progress: RUNNING | Objects: 3793
+2026-09-09T17:01:55: Progress: RUNNING | Objects: 3968
+2026-09-09T17:01:59: Progress: RUNNING | Objects: 4154
+2026-09-09T17:02:02: Progress: RUNNING | Objects: 4338
+2026-09-09T17:02:06: Progress: RUNNING | Objects: 4530
+2026-09-09T17:02:09: Progress: RUNNING | Objects: 4714
+2026-09-09T17:02:12: Progress: RUNNING | Objects: 4915
+2026-09-09T17:02:16: Progress: RUNNING | Objects: 5104
+2026-09-09T17:02:19: Progress: RUNNING | Objects: 5268
+2026-09-09T17:02:23: Progress: RUNNING | Objects: 5460
+2026-09-09T17:02:26: Progress: RUNNING | Objects: 5629
+2026-09-09T17:02:29: Progress: RUNNING | Objects: 5818
+2026-09-09T17:02:33: Progress: RUNNING | Objects: 6003
+2026-09-09T17:02:36: Progress: RUNNING | Objects: 6193
+2026-09-09T17:02:40: Progress: RUNNING | Objects: 6390
+2026-09-09T17:02:43: Progress: RUNNING | Objects: 6581
+2026-09-09T17:02:46: Progress: RUNNING | Objects: 6779
+2026-09-09T17:02:50: Progress: RUNNING | Objects: 6975
+2026-09-09T17:02:53: Progress: RUNNING | Objects: 7136
+2026-09-09T17:02:57: Progress: RUNNING | Objects: 7308
+2026-09-09T17:03:00: Progress: RUNNING | Objects: 7500
+2026-09-09T17:03:03: Progress: RUNNING | Objects: 7679
+2026-09-09T17:03:07: Progress: RUNNING | Objects: 7859
+2026-09-09T17:03:10: Progress: RUNNING | Objects: 8038
+2026-09-09T17:03:14: Progress: RUNNING | Objects: 8218
+2026-09-09T17:03:17: Progress: RUNNING | Objects: 8402
+2026-09-09T17:03:20: Progress: RUNNING | Objects: 8586
+2026-09-09T17:03:24: Progress: RUNNING | Objects: 8771
+2026-09-09T17:03:27: Progress: RUNNING | Objects: 8957
+2026-09-09T17:03:31: Progress: RUNNING | Objects: 9144
+2026-09-09T17:03:34: Progress: RUNNING | Objects: 9339
+2026-09-09T17:03:38: Progress: RUNNING | Objects: 9534
+2026-09-09T17:03:41: Progress: RUNNING | Objects: 9735
+2026-09-09T17:03:44: Progress: RUNNING | Objects: 9930
+2026-09-09T17:03:48: Progress: RUNNING | Objects: 10119
+2026-09-09T17:03:51: Progress: RUNNING | Objects: 10323
+2026-09-09T17:03:55: Progress: RUNNING | Objects: 10528
+2026-09-09T17:03:58: Progress: RUNNING | Objects: 10728
+2026-09-09T17:04:02: Progress: RUNNING | Objects: 10929
+2026-09-09T17:04:05: Progress: RUNNING | Objects: 11103
+2026-09-09T17:04:08: Progress: RUNNING | Objects: 11254
+2026-09-09T17:04:12: Progress: RUNNING | Objects: 11401
+2026-09-09T17:04:15: Progress: RUNNING | Objects: 11528
+2026-09-09T17:04:19: Progress: RUNNING | Objects: 11602
+2026-09-09T17:04:22: Progress: RUNNING | Objects: 11675
+2026-09-09T17:04:26: Progress: RUNNING | Objects: 11750
+2026-09-09T17:04:29: Progress: RUNNING | Objects: 11816
+2026-09-09T17:04:32: Progress: RUNNING | Objects: 11885
+2026-09-09T17:04:36: Progress: RUNNING | Objects: 11940
+2026-09-09T17:04:39: Progress: COMPLETED | Objects: 11940
+2026-09-09T17:04:39: ✔ Completed: shopify_inventory_set_input.jsonl
+2026-09-09T17:04:39: 📊 Results:
+2026-09-09T17:04:39:    - Status: COMPLETED
+2026-09-09T17:04:39:    - Objects processed: 11940
+2026-09-09T17:04:39:    - Error code: None
+2026-09-09T17:04:39:    - Created at: 2026-09-09T09:00:40Z
+2026-09-09T17:04:39:    - Completed at: 2026-09-09T09:04:36Z
+2026-09-09T17:04:39: 📥 Downloading results from: https://storage.googleapis.com/shopify-tiers-assets-prod-us-east1/bulk-operation-outputs/668e22170461926ef74638149093?GoogleAccessId=assets-us-prod%40shopify-tiers.iam.gserviceaccount.com&Expires=1789549476&Signature=Wzxmthj0wzw6ACInb1FqjsQwUde0V9gR%2B%2FXOwFOcMwsvXS69WC%2BfeDfbnHjd3qySN8PseCBAFrdez%2FfNzGd8RcAh1kCmdsZ4GWG67Wprhzm1fC7kQlBoa0Bwf1cItH1zaoSneOqVT7ofiDi1F928032JeaN3tEFGGgtSB6v4Q5YYR4ezMm4yOvU0EczL7X4XFk7qpPCiQJdQXkYE3bMH6jhqvlFtut9bLu6TpHTSrZXfJ5S2c7%2BuhISEafrQODR7zOCEsXwnnEjNCYV8PnB9LPZlgx0YFlT2vvEcv70UWMDumreSXptGEFivBq7sG%2BJ5uqtpfKDPN%2B8M3UCZIwIf2g%3D%3D&response-content-disposition=attachment%3B+filename%3D%22staging-bulk-8430950613217.jsonl%22%3B+filename%2A%3DUTF-8%27%27staging-bulk-8430950613217.jsonl&response-content-type=application%2Fjsonl
+2026-09-09T17:04:42: ✅ Results saved to: C:\Users\user\Desktop\shopify-inventory-syncer\output\results_shopify_inventory_set_input.jsonl
+2026-09-09T17:04:42: 
+2026-09-09T17:04:42: 🎉 Processing complete.
+2026-09-09T17:04:42: ✓ Completed: node --env-file=.env ./js/update-inventory.js
+2026-09-09T17:04:42: 
+2026-09-09T17:04:42: ==================================================
+2026-09-09T17:04:42: ✓ All commands completed successfully!
+2026-09-09T17:16:18: Starting inventory sync sequence...
+2026-09-09T17:16:18: ==================================================
+2026-09-09T17:16:18: 
+2026-09-09T17:16:18: [1/7] Running: node --env-file=.env ./fetch/shopify.js
+2026-09-09T17:16:18: [Fetching] Shopify products...
+2026-09-09T17:16:21: [BATCH 1] +250 | Total: 250
+2026-09-09T17:16:23: [BATCH 2] +250 | Total: 500
+2026-09-09T17:16:26: [BATCH 3] +250 | Total: 750
+2026-09-09T17:16:28: [BATCH 4] +250 | Total: 1000
+2026-09-09T17:16:30: [BATCH 5] +250 | Total: 1250
+2026-09-09T17:16:32: [BATCH 6] +250 | Total: 1500
+2026-09-09T17:16:34: [BATCH 7] +250 | Total: 1750
+2026-09-09T17:16:37: [BATCH 8] +250 | Total: 2000
+2026-09-09T17:16:39: [BATCH 9] +250 | Total: 2250
+2026-09-09T17:16:42: [BATCH 10] +250 | Total: 2500
+2026-09-09T17:16:44: [BATCH 11] +250 | Total: 2750
+2026-09-09T17:16:46: [BATCH 12] +250 | Total: 3000
+2026-09-09T17:16:48: [BATCH 13] +124 | Total: 3124
+2026-09-09T17:16:48: [SUCCESS] 3124 products in 13 batches
+2026-09-09T17:16:48: ✓ Completed: node --env-file=.env ./fetch/shopify.js
+2026-09-09T17:16:48: 
+2026-09-09T17:16:48: [2/7] Running: node --env-file=.env ./fetch/ibm.js
+2026-09-09T17:16:48: Reading input SKUs...
+2026-09-09T17:16:48: Querying IBM database for 1194 unique SKUs...
+2026-09-09T17:16:52: Writing 11940 inventory records...
+2026-09-09T17:16:52: Saved output to C:\Users\user\Desktop\shopify-inventory-syncer\output\ibm-inventory.jsonl
+2026-09-09T17:16:52: ✓ Completed: node --env-file=.env ./fetch/ibm.js
+2026-09-09T17:16:52: 
+2026-09-09T17:16:52: [3/7] Running: node --env-file=.env ./fetch/sql-server.js
+2026-09-09T17:16:53: [CONNECTED] 12100 | CQLC
+2026-09-09T17:16:53: [SOLD]: 7, [REVERSALS]: 0
+2026-09-09T17:16:53: [CONNECTED] 13400 | CENTRALE
+2026-09-09T17:16:53: [SOLD]: 17, [REVERSALS]: 0
+2026-09-09T17:16:53: [CONNECTED] 12700 | ZAMBOANGA
+2026-09-09T17:16:53: [SOLD]: 16, [REVERSALS]: 0
+2026-09-09T17:16:53: [CONNECTED] 11500 | CEBU
+2026-09-09T17:16:53: [SOLD]: 0, [REVERSALS]: 0
+2026-09-09T17:16:53: [CONNECTED] 10500 | PAGADIAN
+2026-09-09T17:16:53: [SOLD]: 19, [REVERSALS]: 0
+2026-09-09T17:16:54: [CONNECTED] 14300 | TOLEDO
+2026-09-09T17:16:54: [SOLD]: 16, [REVERSALS]: 0
+2026-09-09T17:16:54: [CONNECTED] 12000 | TAYTAY
+2026-09-09T17:16:54: [SOLD]: 1, [REVERSALS]: 0
+2026-09-09T17:16:54: [CONNECTED] 13600 | CARCAR
+2026-09-09T17:16:54: [SOLD]: 10, [REVERSALS]: 0
+2026-09-09T17:16:54: [CONNECTED] 12400 | TALISAY
+2026-09-09T17:16:54: [SOLD]: 12, [REVERSALS]: 0
+2026-09-09T17:16:54: [CONNECTED] 11400 | PALAO
+2026-09-09T17:16:54: [SOLD]: 24, [REVERSALS]: 0
+2026-09-09T17:16:54: [CONNECTED] 11200 | CARMEN
+2026-09-09T17:16:54: [SOLD]: 10, [REVERSALS]: 0
+2026-09-09T17:16:54: [CONNECTED] 10200 | ILIGAN
+2026-09-09T17:16:54: [SOLD]: 5, [REVERSALS]: 0
+2026-09-09T17:16:54: [CONNECTED] 13000 | PARKWAY
+2026-09-09T17:16:54: [SOLD]: 5, [REVERSALS]: 0
+2026-09-09T17:16:55: [CONNECTED] 10400 | BUTUAN
+2026-09-09T17:16:55: [SOLD]: 18, [REVERSALS]: 0
+2026-09-09T17:16:55: [CONNECTED] 11300 | CAPISTRANO
+2026-09-09T17:16:55: [SOLD]: 12, [REVERSALS]: 0
+2026-09-09T17:16:55: [CONNECTED] 10700 | SURIGAO
+2026-09-09T17:16:55: [SOLD]: 20, [REVERSALS]: 0
+2026-09-09T17:16:55: [CONNECTED] 14000 | CABADBARAN
+2026-09-09T17:16:55: [SOLD]: 12, [REVERSALS]: 0
+2026-09-09T17:16:55: [CONNECTED] 11000 | OSMENA
+2026-09-09T17:16:55: [SOLD]: 4, [REVERSALS]: 0
+2026-09-09T17:16:55: [CONNECTED] 10300 | VALENCIA
+2026-09-09T17:16:55: [SOLD]: 17, [REVERSALS]: 1
+2026-09-09T17:16:55: [CONNECTED] 10100 | CAGAYAN
+2026-09-09T17:16:55: [SOLD]: 29, [REVERSALS]: 1
+2026-09-09T17:16:55: Fetched 20/20 stores
+2026-09-09T17:16:55: Saved to C:\Users\user\Desktop\shopify-inventory-syncer\output\cms_data.json
+2026-09-09T17:16:55: ✓ Completed: node --env-file=.env ./fetch/sql-server.js
+2026-09-09T17:16:55: 
+2026-09-09T17:16:55: [4/7] Running: node --env-file=.env ./js/aggregate-cms-data.js
+2026-09-09T17:16:55: [READING] Loading raw data from: C:\Users\user\Desktop\shopify-inventory-syncer\output\cms_data.json
+2026-09-09T17:16:55: [SUCCESS] Wrote 238 flat JSONL rows to: C:\Users\user\Desktop\shopify-inventory-syncer\output\aggregated_cms_data.jsonl
+2026-09-09T17:16:55: ✓ Completed: node --env-file=.env ./js/aggregate-cms-data.js
+2026-09-09T17:16:55: 
+2026-09-09T17:16:55: [5/7] Running: node --env-file=.env ./js/merge-inventory.js
+2026-09-09T17:16:55: Inventory merged successfully: C:\Users\user\Desktop\shopify-inventory-syncer\output\final_inventory.jsonl
+2026-09-09T17:16:55: ✓ Completed: node --env-file=.env ./js/merge-inventory.js
+2026-09-09T17:16:55: 
+2026-09-09T17:16:55: [6/7] Running: node --env-file=.env ./js/generate-shopify-jsonl.js
+2026-09-09T17:16:56: Shopify inventory payload generated: C:\Users\user\Desktop\shopify-inventory-syncer\output\shopify_inventory_set_input.jsonl
+2026-09-09T17:16:56: ✓ Completed: node --env-file=.env ./js/generate-shopify-jsonl.js
+2026-09-09T17:16:56: 
+2026-09-09T17:16:56: [7/7] Running: node --env-file=.env ./js/update-inventory.js
+2026-09-09T17:16:56: 🚀 Executing bulk job: shopify_inventory_set_input.jsonl
+2026-09-09T17:17:00: Job Started [ID: gid://shopify/BulkOperation/8431009399009]
+2026-09-09T17:17:00: Progress: CREATED | Objects: 0
+2026-09-09T17:17:03: Progress: RUNNING | Objects: 78
+2026-09-09T17:17:07: Progress: RUNNING | Objects: 272
+2026-09-09T17:17:10: Progress: RUNNING | Objects: 453
+2026-09-09T17:17:14: Progress: RUNNING | Objects: 638
+2026-09-09T17:17:17: Progress: RUNNING | Objects: 828
+2026-09-09T17:17:20: Progress: RUNNING | Objects: 1009
+2026-09-09T17:17:24: Progress: RUNNING | Objects: 1192
+2026-09-09T17:17:27: Progress: RUNNING | Objects: 1372
+2026-09-09T17:17:31: Progress: RUNNING | Objects: 1561
+2026-09-09T17:17:34: Progress: RUNNING | Objects: 1750
+2026-09-09T17:17:38: Progress: RUNNING | Objects: 1938
+2026-09-09T17:17:41: Progress: RUNNING | Objects: 2123
+2026-09-09T17:17:44: Progress: RUNNING | Objects: 2308
+2026-09-09T17:17:48: Progress: RUNNING | Objects: 2503
+2026-09-09T17:17:51: Progress: RUNNING | Objects: 2683
+2026-09-09T17:17:55: Progress: RUNNING | Objects: 2870
+2026-09-09T17:17:58: Progress: RUNNING | Objects: 3057
+2026-09-09T17:18:02: Progress: RUNNING | Objects: 3231
+2026-09-09T17:18:05: Progress: RUNNING | Objects: 3423
+2026-09-09T17:18:08: Progress: RUNNING | Objects: 3606
+2026-09-09T17:18:12: Progress: RUNNING | Objects: 3775
+2026-09-09T17:18:15: Progress: RUNNING | Objects: 3958
+2026-09-09T17:18:19: Progress: RUNNING | Objects: 4132
+2026-09-09T17:18:22: Progress: RUNNING | Objects: 4323
+2026-09-09T17:18:25: Progress: RUNNING | Objects: 4514
+2026-09-09T17:18:29: Progress: RUNNING | Objects: 4705
+2026-09-09T17:18:32: Progress: RUNNING | Objects: 4897
+2026-09-09T17:18:36: Progress: RUNNING | Objects: 5087
+2026-09-09T17:18:39: Progress: RUNNING | Objects: 5271
+2026-09-09T17:18:43: Progress: RUNNING | Objects: 5459
+2026-09-09T17:18:46: Progress: RUNNING | Objects: 5636
+2026-09-09T17:18:49: Progress: RUNNING | Objects: 5814
+2026-09-09T17:18:53: Progress: RUNNING | Objects: 5986
+2026-09-09T17:18:56: Progress: RUNNING | Objects: 6177
+2026-09-09T17:19:00: Progress: RUNNING | Objects: 6365
+2026-09-09T17:19:03: Progress: RUNNING | Objects: 6541
+2026-09-09T17:19:07: Progress: RUNNING | Objects: 6737
+2026-09-09T17:19:10: Progress: RUNNING | Objects: 6919
+2026-09-09T17:19:13: Progress: RUNNING | Objects: 7101
+2026-09-09T17:19:17: Progress: RUNNING | Objects: 7288
+2026-09-09T17:19:20: Progress: RUNNING | Objects: 7470
+2026-09-09T17:19:24: Progress: RUNNING | Objects: 7654
+2026-09-09T17:19:27: Progress: RUNNING | Objects: 7832
+2026-09-09T17:19:30: Progress: RUNNING | Objects: 8018
+2026-09-09T17:19:34: Progress: RUNNING | Objects: 8211
+2026-09-09T17:19:37: Progress: RUNNING | Objects: 8369
+2026-09-09T17:19:41: Progress: RUNNING | Objects: 8523
+2026-09-09T17:19:44: Progress: RUNNING | Objects: 8708
+2026-09-09T17:19:47: Progress: RUNNING | Objects: 8897
+2026-09-09T17:19:51: Progress: RUNNING | Objects: 9089
+2026-09-09T17:19:54: Progress: RUNNING | Objects: 9282
+2026-09-09T17:19:58: Progress: RUNNING | Objects: 9472
+2026-09-09T17:20:01: Progress: RUNNING | Objects: 9662
+2026-09-09T17:20:04: Progress: RUNNING | Objects: 9850
+2026-09-09T17:20:08: Progress: RUNNING | Objects: 10038
+2026-09-09T17:20:11: Progress: RUNNING | Objects: 10223
+2026-09-09T17:20:15: Progress: RUNNING | Objects: 10407
+2026-09-09T17:20:18: Progress: RUNNING | Objects: 10587
+2026-09-09T17:20:22: Progress: RUNNING | Objects: 10770
+2026-09-09T17:20:25: Progress: RUNNING | Objects: 10955
+2026-09-09T17:20:28: Progress: RUNNING | Objects: 11130
+2026-09-09T17:20:32: Progress: RUNNING | Objects: 11244
+2026-09-09T17:20:36: Progress: RUNNING | Objects: 11363
+2026-09-09T17:20:39: Progress: RUNNING | Objects: 11427
+2026-09-09T17:20:42: Progress: RUNNING | Objects: 11480
+2026-09-09T17:20:46: Progress: RUNNING | Objects: 11549
+2026-09-09T17:20:49: Progress: RUNNING | Objects: 11617
+2026-09-09T17:20:53: Progress: RUNNING | Objects: 11685
+2026-09-09T17:20:56: Progress: RUNNING | Objects: 11755
+2026-09-09T17:20:59: Progress: RUNNING | Objects: 11804
+2026-09-09T17:21:03: Progress: RUNNING | Objects: 11836
+2026-09-09T17:21:06: Progress: RUNNING | Objects: 11868
+2026-09-09T17:21:10: Progress: RUNNING | Objects: 11904
+2026-09-09T17:21:14: Progress: RUNNING | Objects: 11937
+2026-09-09T17:21:17: Progress: COMPLETED | Objects: 11940
+2026-09-09T17:21:17: ✔ Completed: shopify_inventory_set_input.jsonl
+2026-09-09T17:21:17: 📊 Results:
+2026-09-09T17:21:17:    - Status: COMPLETED
+2026-09-09T17:21:17:    - Objects processed: 11940
+2026-09-09T17:21:17:    - Error code: None
+2026-09-09T17:21:17:    - Created at: 2026-09-09T09:16:57Z
+2026-09-09T17:21:17:    - Completed at: 2026-09-09T09:21:14Z
+2026-09-09T17:21:17: 📥 Downloading results from: https://storage.googleapis.com/shopify-tiers-assets-prod-us-east1/bulk-operation-outputs/db25b8b5f67b69bf50812bdc9137?GoogleAccessId=assets-us-prod%40shopify-tiers.iam.gserviceaccount.com&Expires=1789550474&Signature=JcGsQtFNzecVhr4SD2Ltw%2FJSFRBvrdIs%2B9kRF4BbLqIwA5FdxLl8nrYukEOTKS3GvGPMjhBlbhfBb3Yt9vtrgxbZMBLtBTrIGigNBT4TEDH7KLS4w6ZNuDC11reVwXpSKg7w4omU9UgvyZfPxD0gcbwXIoiHGa6EiHl9sn78boru5bRngSc1MxRUvQbf8k1s2MCiGezoVerP41WvpZoF0GzS6Ff8004ufp3NdDO3A8%2B9elHuGBzOctyy1aodmUgiyoSaGeFMJVipeCG9WuNpZCmOLsMjAbBh14wiUX3ncuGW%2BkbbykUrIlMC545WiESuQaRauJCAKGHk4id43FDRsA%3D%3D&response-content-disposition=attachment%3B+filename%3D%22staging-bulk-8431009399009.jsonl%22%3B+filename%2A%3DUTF-8%27%27staging-bulk-8431009399009.jsonl&response-content-type=application%2Fjsonl
+2026-09-09T17:21:19: ✅ Results saved to: C:\Users\user\Desktop\shopify-inventory-syncer\output\results_shopify_inventory_set_input.jsonl
+2026-09-09T17:21:19: 
+2026-09-09T17:21:19: 🎉 Processing complete.
+2026-09-09T17:21:19: ✓ Completed: node --env-file=.env ./js/update-inventory.js
+2026-09-09T17:21:19: 
+2026-09-09T17:21:19: ==================================================
+2026-09-09T17:21:19: ✓ All commands completed successfully!
+2026-09-09T18:07:41: Current time (6:07 PM PHT) is outside schedule hours (9:00 AM - 5:30 PM)
+2026-09-09T18:07:41: Skipping sync. Will run at next scheduled time.
+2026-09-10T09:02:33: Starting inventory sync sequence...
+2026-09-10T09:02:33: ==================================================
+2026-09-10T09:02:33: 
+2026-09-10T09:02:33: [1/7] Running: node --env-file=.env ./fetch/shopify.js
+2026-09-10T09:02:40: [Fetching] Shopify products...
+2026-09-10T09:02:40: [BATCH 1] +0 | Total: 0
+2026-09-10T09:02:40: [SUCCESS] 0 products in 1 batches
+2026-09-10T09:02:40: ✓ Completed: node --env-file=.env ./fetch/shopify.js
+2026-09-10T09:02:40: 
+2026-09-10T09:02:40: [2/7] Running: node --env-file=.env ./fetch/ibm.js
+2026-09-10T09:02:40: Reading input SKUs...
+2026-09-10T09:02:40: No SKUs found. Exiting.
+2026-09-10T09:02:40: ✓ Completed: node --env-file=.env ./fetch/ibm.js
+2026-09-10T09:02:40: 
+2026-09-10T09:02:40: [3/7] Running: node --env-file=.env ./fetch/sql-server.js
+2026-09-10T09:02:41: [FAILED] 10100 | CAGAYAN: Failed to connect to 192.161.3.3:1433 - Could not connect (sequence)
+2026-09-10T09:02:41: [FAILED] 10200 | ILIGAN: Failed to connect to 192.161.3.41:1433 - Could not connect (sequence)
+2026-09-10T09:02:41: [FAILED] 10300 | VALENCIA: Failed to connect to 192.161.3.48:1433 - Could not connect (sequence)
+2026-09-10T09:02:41: [FAILED] 10400 | BUTUAN: Failed to connect to 192.161.3.21:1433 - Could not connect (sequence)
+2026-09-10T09:02:41: [FAILED] 10500 | PAGADIAN: Failed to connect to 192.161.3.45:1433 - Could not connect (sequence)
+2026-09-10T09:02:41: [FAILED] 10700 | SURIGAO: Failed to connect to 192.161.3.29:1433 - Could not connect (sequence)
+2026-09-10T09:02:41: [FAILED] 11000 | OSMENA: Failed to connect to 192.161.3.4:1433 - Could not connect (sequence)
+2026-09-10T09:02:41: [FAILED] 11200 | CARMEN: Failed to connect to 192.161.3.5:1433 - Could not connect (sequence)
+2026-09-10T09:02:41: [FAILED] 11300 | CAPISTRANO: Failed to connect to 192.161.3.6:1433 - Could not connect (sequence)
+2026-09-10T09:02:41: [FAILED] 11400 | PALAO: Failed to connect to 192.161.3.42:1433 - Could not connect (sequence)
+2026-09-10T09:02:41: [FAILED] 11500 | CEBU: Failed to connect to 192.161.3.32:1433 - Could not connect (sequence)
+2026-09-10T09:02:41: [FAILED] 12000 | TAYTAY: Failed to connect to 192.161.3.40:1433 - Could not connect (sequence)
+2026-09-10T09:02:41: [FAILED] 12100 | CQLC: Failed to connect to 192.161.2.81:1433 - Could not connect (sequence)
+2026-09-10T09:02:41: [FAILED] 12400 | TALISAY: Failed to connect to 192.161.3.33:1433 - Could not connect (sequence)
+2026-09-10T09:02:41: [FAILED] 12700 | ZAMBOANGA: Failed to connect to 192.161.3.47:1433 - Could not connect (sequence)
+2026-09-10T09:02:41: [FAILED] 13000 | PARKWAY: Failed to connect to 192.161.3.31:1433 - Could not connect (sequence)
+2026-09-10T09:02:41: [FAILED] 13400 | CENTRALE: Failed to connect to 192.161.3.28:1433 - Could not connect (sequence)
+2026-09-10T09:02:41: [FAILED] 13600 | CARCAR: Failed to connect to 192.161.3.34:1433 - Could not connect (sequence)
+2026-09-10T09:02:41: [FAILED] 14000 | CABADBARAN: Failed to connect to 192.161.3.25:1433 - Could not connect (sequence)
+2026-09-10T09:02:41: [FAILED] 14300 | TOLEDO: Failed to connect to 192.161.3.66:1433 - Could not connect (sequence)
+2026-09-10T09:02:41: Fetched 0/20 stores
+2026-09-10T09:02:41: Saved to C:\Users\user\Desktop\shopify-inventory-syncer\output\cms_data.json
+2026-09-10T09:02:41: ✓ Completed: node --env-file=.env ./fetch/sql-server.js
+2026-09-10T09:02:41: 
+2026-09-10T09:02:41: [4/7] Running: node --env-file=.env ./js/aggregate-cms-data.js
+2026-09-10T09:02:41: [READING] Loading raw data from: C:\Users\user\Desktop\shopify-inventory-syncer\output\cms_data.json
+2026-09-10T09:02:41: [ERROR] Input file contains no array records.
+2026-09-10T09:02:41: ✓ Completed: node --env-file=.env ./js/aggregate-cms-data.js
+2026-09-10T09:02:41: 
+2026-09-10T09:02:41: [5/7] Running: node --env-file=.env ./js/merge-inventory.js
+2026-09-10T09:02:41: Inventory merged successfully: C:\Users\user\Desktop\shopify-inventory-syncer\output\final_inventory.jsonl
+2026-09-10T09:02:41: ✓ Completed: node --env-file=.env ./js/merge-inventory.js
+2026-09-10T09:02:41: 
+2026-09-10T09:02:41: [6/7] Running: node --env-file=.env ./js/generate-shopify-jsonl.js
+2026-09-10T09:02:41: Shopify inventory payload generated: C:\Users\user\Desktop\shopify-inventory-syncer\output\shopify_inventory_set_input.jsonl
+2026-09-10T09:02:41: ✓ Completed: node --env-file=.env ./js/generate-shopify-jsonl.js
+2026-09-10T09:02:41: 
+2026-09-10T09:02:41: [7/7] Running: node --env-file=.env ./js/update-inventory.js
+2026-09-10T09:02:42: 🚀 Executing bulk job: shopify_inventory_set_input.jsonl
+2026-09-10T09:02:42: 
+2026-09-10T09:02:42: 💥 Critical Error: Failed to create upload target for shopify_inventory_set_input.jsonl: {"errors":{"message":"GraphQL Client: fetch failed"}}
+2026-09-10T09:02:42: ✗ Failed: node --env-file=.env ./js/update-inventory.js
+2026-09-10T09:02:42: node --env-file=.env ./js/update-inventory.js exited with code 1
+2026-09-10T09:02:42: Fatal error: Error: node --env-file=.env ./js/update-inventory.js exited with code 1
+2026-09-10T09:02:42:     at ChildProcess.<anonymous> (file:///C:/Users/user/Desktop/shopify-inventory-syncer/index.js:34:19)
+2026-09-10T09:02:42:     at ChildProcess.emit (node:events:509:20)
+2026-09-10T09:02:42:     at maybeClose (node:internal/child_process:1108:16)
+2026-09-10T09:02:42:     at ChildProcess._handle.onexit (node:internal/child_process:305:5)
+2026-09-10T09:30:00: Starting inventory sync sequence...
+2026-09-10T09:30:00: ==================================================
+2026-09-10T09:30:00: 
+2026-09-10T09:30:00: [1/7] Running: node --env-file=.env ./fetch/shopify.js
+2026-09-10T09:30:17: [Fetching] Shopify products...
+2026-09-10T09:30:23: [BATCH 1] +250 | Total: 250
+2026-09-10T09:30:26: [BATCH 2] +250 | Total: 500
+2026-09-10T09:30:29: [BATCH 3] +250 | Total: 750
+2026-09-10T09:30:32: [BATCH 4] +250 | Total: 1000
+2026-09-10T09:30:36: [BATCH 5] +250 | Total: 1250
+2026-09-10T09:30:38: [BATCH 6] +250 | Total: 1500
+2026-09-10T09:30:41: [BATCH 7] +250 | Total: 1750
+2026-09-10T09:30:43: [BATCH 8] +250 | Total: 2000
+2026-09-10T09:30:55: [BATCH 9] +250 | Total: 2250
+2026-09-10T09:30:59: [BATCH 10] +250 | Total: 2500
+2026-09-10T09:31:02: [BATCH 11] +250 | Total: 2750
+2026-09-10T09:31:04: [BATCH 12] +250 | Total: 3000
+2026-09-10T09:31:06: [BATCH 13] +126 | Total: 3126
+2026-09-10T09:31:06: [SUCCESS] 3126 products in 13 batches
+2026-09-10T09:31:06: ✓ Completed: node --env-file=.env ./fetch/shopify.js
+2026-09-10T09:31:06: 
+2026-09-10T09:31:06: [2/7] Running: node --env-file=.env ./fetch/ibm.js
+2026-09-10T09:31:06: Reading input SKUs...
+2026-09-10T09:31:06: Querying IBM database for 1194 unique SKUs...
+2026-09-10T09:31:09: Writing 11940 inventory records...
+2026-09-10T09:31:09: Saved output to C:\Users\user\Desktop\shopify-inventory-syncer\output\ibm-inventory.jsonl
+2026-09-10T09:31:09: ✓ Completed: node --env-file=.env ./fetch/ibm.js
+2026-09-10T09:31:09: 
+2026-09-10T09:31:09: [3/7] Running: node --env-file=.env ./fetch/sql-server.js
+2026-09-10T09:31:10: [CONNECTED] 12100 | CQLC
+2026-09-10T09:31:10: [SOLD]: 0, [REVERSALS]: 0
+2026-09-10T09:31:10: [CONNECTED] 13400 | CENTRALE
+2026-09-10T09:31:10: [SOLD]: 0, [REVERSALS]: 0
+2026-09-10T09:31:10: [CONNECTED] 12700 | ZAMBOANGA
+2026-09-10T09:31:10: [SOLD]: 0, [REVERSALS]: 0
+2026-09-10T09:31:10: [CONNECTED] 10500 | PAGADIAN
+2026-09-10T09:31:10: [SOLD]: 0, [REVERSALS]: 0
+2026-09-10T09:31:11: [CONNECTED] 11200 | CARMEN
+2026-09-10T09:31:11: [SOLD]: 0, [REVERSALS]: 0
+2026-09-10T09:31:12: [CONNECTED] 14300 | TOLEDO
+2026-09-10T09:31:12: [SOLD]: 0, [REVERSALS]: 0
+2026-09-10T09:31:12: [CONNECTED] 10700 | SURIGAO
+2026-09-10T09:31:12: [SOLD]: 0, [REVERSALS]: 0
+2026-09-10T09:31:13: [CONNECTED] 11400 | PALAO
+2026-09-10T09:31:13: [SOLD]: 1, [REVERSALS]: 0
+2026-09-10T09:31:13: [CONNECTED] 13600 | CARCAR
+2026-09-10T09:31:13: [SOLD]: 1, [REVERSALS]: 0
+2026-09-10T09:31:13: [CONNECTED] 12400 | TALISAY
+2026-09-10T09:31:13: [SOLD]: 0, [REVERSALS]: 0
+2026-09-10T09:31:13: [CONNECTED] 10200 | ILIGAN
+2026-09-10T09:31:13: [SOLD]: 0, [REVERSALS]: 0
+2026-09-10T09:31:13: [CONNECTED] 13000 | PARKWAY
+2026-09-10T09:31:13: [SOLD]: 0, [REVERSALS]: 0
+2026-09-10T09:31:13: [CONNECTED] 10300 | VALENCIA
+2026-09-10T09:31:13: [SOLD]: 0, [REVERSALS]: 0
+2026-09-10T09:31:13: [CONNECTED] 12000 | TAYTAY
+2026-09-10T09:31:13: [SOLD]: 0, [REVERSALS]: 0
+2026-09-10T09:31:13: [CONNECTED] 11300 | CAPISTRANO
+2026-09-10T09:31:13: [SOLD]: 0, [REVERSALS]: 0
+2026-09-10T09:31:13: [CONNECTED] 14000 | CABADBARAN
+2026-09-10T09:31:13: [SOLD]: 0, [REVERSALS]: 0
+2026-09-10T09:31:14: [CONNECTED] 10100 | CAGAYAN
+2026-09-10T09:31:14: [SOLD]: 1, [REVERSALS]: 0
+2026-09-10T09:31:15: [CONNECTED] 11000 | OSMENA
+2026-09-10T09:31:15: [SOLD]: 0, [REVERSALS]: 0
+2026-09-10T09:31:16: [CONNECTED] 10400 | BUTUAN
+2026-09-10T09:31:16: [SOLD]: 0, [REVERSALS]: 0
+2026-09-10T09:31:16: [CONNECTED] 11500 | CEBU
+2026-09-10T09:31:16: [SOLD]: 0, [REVERSALS]: 0
+2026-09-10T09:31:16: Fetched 20/20 stores
+2026-09-10T09:31:16: Saved to C:\Users\user\Desktop\shopify-inventory-syncer\output\cms_data.json
+2026-09-10T09:31:16: ✓ Completed: node --env-file=.env ./fetch/sql-server.js
+2026-09-10T09:31:16: 
+2026-09-10T09:31:16: [4/7] Running: node --env-file=.env ./js/aggregate-cms-data.js
+2026-09-10T09:31:16: [READING] Loading raw data from: C:\Users\user\Desktop\shopify-inventory-syncer\output\cms_data.json
+2026-09-10T09:31:16: [SUCCESS] Wrote 3 flat JSONL rows to: C:\Users\user\Desktop\shopify-inventory-syncer\output\aggregated_cms_data.jsonl
+2026-09-10T09:31:16: ✓ Completed: node --env-file=.env ./js/aggregate-cms-data.js
+2026-09-10T09:31:16: 
+2026-09-10T09:31:16: [5/7] Running: node --env-file=.env ./js/merge-inventory.js
+2026-09-10T09:31:17: Inventory merged successfully: C:\Users\user\Desktop\shopify-inventory-syncer\output\final_inventory.jsonl
+2026-09-10T09:31:17: ✓ Completed: node --env-file=.env ./js/merge-inventory.js
+2026-09-10T09:31:17: 
+2026-09-10T09:31:17: [6/7] Running: node --env-file=.env ./js/generate-shopify-jsonl.js
+2026-09-10T09:31:17: Shopify inventory payload generated: C:\Users\user\Desktop\shopify-inventory-syncer\output\shopify_inventory_set_input.jsonl
+2026-09-10T09:31:17: ✓ Completed: node --env-file=.env ./js/generate-shopify-jsonl.js
+2026-09-10T09:31:17: 
+2026-09-10T09:31:17: [7/7] Running: node --env-file=.env ./js/update-inventory.js
+2026-09-10T09:31:18: 🚀 Executing bulk job: shopify_inventory_set_input.jsonl
+2026-09-10T09:31:22: Job Started [ID: gid://shopify/BulkOperation/8434529042657]
+2026-09-10T09:31:22: Progress: CREATED | Objects: 0
+2026-09-10T09:31:26: Progress: RUNNING | Objects: 10
+2026-09-10T09:31:29: Progress: RUNNING | Objects: 48
+2026-09-10T09:31:32: Progress: RUNNING | Objects: 129
+2026-09-10T09:31:36: Progress: RUNNING | Objects: 165
+2026-09-10T09:31:39: Progress: RUNNING | Objects: 241
+2026-09-10T09:31:43: Progress: RUNNING | Objects: 346
+2026-09-10T09:31:46: Progress: RUNNING | Objects: 471
+2026-09-10T09:31:49: Progress: RUNNING | Objects: 604
+2026-09-10T09:31:53: Progress: RUNNING | Objects: 728
+2026-09-10T09:31:56: Progress: RUNNING | Objects: 796
+2026-09-10T09:32:00: Progress: RUNNING | Objects: 896
+2026-09-10T09:32:03: Progress: RUNNING | Objects: 1019
+2026-09-10T09:32:06: Progress: RUNNING | Objects: 1102
+2026-09-10T09:32:10: Progress: RUNNING | Objects: 1178
+2026-09-10T09:32:13: Progress: RUNNING | Objects: 1289
+2026-09-10T09:32:17: Progress: RUNNING | Objects: 1425
+2026-09-10T09:32:20: Progress: RUNNING | Objects: 1481
+2026-09-10T09:32:23: Progress: RUNNING | Objects: 1530
+2026-09-10T09:32:27: Progress: RUNNING | Objects: 1667
+2026-09-10T09:32:30: Progress: RUNNING | Objects: 1795
+2026-09-10T09:32:34: Progress: RUNNING | Objects: 1880
+2026-09-10T09:32:37: Progress: RUNNING | Objects: 1934
+2026-09-10T09:32:40: Progress: RUNNING | Objects: 1958
+2026-09-10T09:32:44: Progress: RUNNING | Objects: 1993
+2026-09-10T09:32:47: Progress: RUNNING | Objects: 2051
+2026-09-10T09:32:51: Progress: RUNNING | Objects: 2177
+2026-09-10T09:32:54: Progress: RUNNING | Objects: 2315
+2026-09-10T09:32:57: Progress: RUNNING | Objects: 2476
+2026-09-10T09:33:01: Progress: RUNNING | Objects: 2624
+2026-09-10T09:33:04: Progress: RUNNING | Objects: 2777
+2026-09-10T09:33:08: Progress: RUNNING | Objects: 2873
+2026-09-10T09:33:11: Progress: RUNNING | Objects: 2991
+2026-09-10T09:33:14: Progress: RUNNING | Objects: 3090
+2026-09-10T09:33:18: Progress: RUNNING | Objects: 3197
+2026-09-10T09:33:21: Progress: RUNNING | Objects: 3299
+2026-09-10T09:33:25: Progress: RUNNING | Objects: 3420
+2026-09-10T09:33:28: Progress: RUNNING | Objects: 3546
+2026-09-10T09:33:31: Progress: RUNNING | Objects: 3638
+2026-09-10T09:33:35: Progress: RUNNING | Objects: 3765
+2026-09-10T09:33:38: Progress: RUNNING | Objects: 3910
+2026-09-10T09:33:42: Progress: RUNNING | Objects: 4035
+2026-09-10T09:33:45: Progress: RUNNING | Objects: 4166
+2026-09-10T09:33:49: Progress: RUNNING | Objects: 4284
+2026-09-10T09:33:52: Progress: RUNNING | Objects: 4406
+2026-09-10T09:33:55: Progress: RUNNING | Objects: 4552
+2026-09-10T09:33:59: Progress: RUNNING | Objects: 4687
+2026-09-10T09:34:02: Progress: RUNNING | Objects: 4792
+2026-09-10T09:34:06: Progress: RUNNING | Objects: 4896
+2026-09-10T09:34:09: Progress: RUNNING | Objects: 5020
+2026-09-10T09:34:12: Progress: RUNNING | Objects: 5141
+2026-09-10T09:34:16: Progress: RUNNING | Objects: 5245
+2026-09-10T09:34:19: Progress: RUNNING | Objects: 5332
+2026-09-10T09:34:28: Progress: RUNNING | Objects: 5459
+2026-09-10T09:34:31: Progress: RUNNING | Objects: 5544
+2026-09-10T09:34:34: Progress: RUNNING | Objects: 5577
+2026-09-10T09:34:38: Progress: RUNNING | Objects: 5639
+2026-09-10T09:34:41: Progress: RUNNING | Objects: 5770
+2026-09-10T09:34:45: Progress: RUNNING | Objects: 5885
+2026-09-10T09:34:48: Progress: RUNNING | Objects: 5996
+2026-09-10T09:34:51: Progress: RUNNING | Objects: 6062
+2026-09-10T09:34:55: Progress: RUNNING | Objects: 6142
+2026-09-10T09:34:58: Progress: RUNNING | Objects: 6227
+2026-09-10T09:35:02: Progress: RUNNING | Objects: 6315
+2026-09-10T09:35:05: Progress: RUNNING | Objects: 6428
+2026-09-10T09:35:08: Progress: RUNNING | Objects: 6513
+2026-09-10T09:35:12: Progress: RUNNING | Objects: 6594
+2026-09-10T09:35:15: Progress: RUNNING | Objects: 6697
+2026-09-10T09:35:19: Progress: RUNNING | Objects: 6810
+2026-09-10T09:35:22: Progress: RUNNING | Objects: 6960
+2026-09-10T09:35:25: Progress: RUNNING | Objects: 7099
+2026-09-10T09:35:29: Progress: RUNNING | Objects: 7194
+2026-09-10T09:35:32: Progress: RUNNING | Objects: 7346
+2026-09-10T09:35:44: Progress: RUNNING | Objects: 7546
+2026-09-10T09:35:47: Progress: RUNNING | Objects: 7818
+2026-09-10T09:35:51: Progress: RUNNING | Objects: 7960
+2026-09-10T09:35:54: Progress: RUNNING | Objects: 8074
+2026-09-10T09:35:57: Progress: RUNNING | Objects: 8177
+2026-09-10T09:36:01: Progress: RUNNING | Objects: 8279
+2026-09-10T09:36:04: Progress: RUNNING | Objects: 8376
+2026-09-10T09:36:08: Progress: RUNNING | Objects: 8451
+2026-09-10T09:36:11: Progress: RUNNING | Objects: 8498
+2026-09-10T09:36:14: Progress: RUNNING | Objects: 8549
+2026-09-10T09:36:18: Progress: RUNNING | Objects: 8671
+2026-09-10T09:36:21: Progress: RUNNING | Objects: 8770
+2026-09-10T09:36:25: Progress: RUNNING | Objects: 8837
+2026-09-10T09:36:28: Progress: RUNNING | Objects: 8887
+2026-09-10T09:36:31: Progress: RUNNING | Objects: 8945
+2026-09-10T09:36:35: Progress: RUNNING | Objects: 9052
+2026-09-10T09:36:38: Progress: RUNNING | Objects: 9151
+2026-09-10T09:36:42: Progress: RUNNING | Objects: 9258
+2026-09-10T09:36:45: Progress: RUNNING | Objects: 9311
+2026-09-10T09:36:48: Progress: RUNNING | Objects: 9354
+2026-09-10T09:36:52: Progress: RUNNING | Objects: 9371
+2026-09-10T09:36:55: Progress: RUNNING | Objects: 9444
+2026-09-10T09:36:59: Progress: RUNNING | Objects: 9534
+2026-09-10T09:37:02: Progress: RUNNING | Objects: 9641
+2026-09-10T09:37:05: Progress: RUNNING | Objects: 9773
+2026-09-10T09:37:09: Progress: RUNNING | Objects: 9865
+2026-09-10T09:37:12: Progress: RUNNING | Objects: 9927
+2026-09-10T09:37:16: Progress: RUNNING | Objects: 9987
+2026-09-10T09:37:19: Progress: RUNNING | Objects: 10027
+2026-09-10T09:37:22: Progress: RUNNING | Objects: 10144
+2026-09-10T09:37:26: Progress: RUNNING | Objects: 10289
+2026-09-10T09:37:29: Progress: RUNNING | Objects: 10355
+2026-09-10T09:37:33: Progress: RUNNING | Objects: 10441
+2026-09-10T09:37:36: Progress: RUNNING | Objects: 10597
+2026-09-10T09:37:39: Progress: RUNNING | Objects: 10728
+2026-09-10T09:37:43: Progress: RUNNING | Objects: 10855
+2026-09-10T09:37:46: Progress: RUNNING | Objects: 10966
+2026-09-10T09:37:50: Progress: RUNNING | Objects: 11043
+2026-09-10T09:37:53: Progress: RUNNING | Objects: 11118
+2026-09-10T09:37:56: Progress: RUNNING | Objects: 11221
+2026-09-10T09:38:00: Progress: RUNNING | Objects: 11336
+2026-09-10T09:38:03: Progress: RUNNING | Objects: 11420
+2026-09-10T09:38:07: Progress: RUNNING | Objects: 11474
+2026-09-10T09:38:10: Progress: RUNNING | Objects: 11559
+2026-09-10T09:38:13: Progress: RUNNING | Objects: 11621
+2026-09-10T09:38:17: Progress: RUNNING | Objects: 11664
+2026-09-10T09:38:26: Progress: RUNNING | Objects: 11763
+2026-09-10T09:38:29: Progress: RUNNING | Objects: 11836
+2026-09-10T09:38:32: Progress: RUNNING | Objects: 11899
+2026-09-10T09:38:36: Progress: RUNNING | Objects: 11937
+2026-09-10T09:38:39: Progress: COMPLETED | Objects: 11940
+2026-09-10T09:38:39: ✔ Completed: shopify_inventory_set_input.jsonl
+2026-09-10T09:38:39: 📊 Results:
+2026-09-10T09:38:39:    - Status: COMPLETED
+2026-09-10T09:38:39:    - Objects processed: 11940
+2026-09-10T09:38:39:    - Error code: None
+2026-09-10T09:38:39:    - Created at: 2026-09-10T01:31:17Z
+2026-09-10T09:38:39:    - Completed at: 2026-09-10T01:38:35Z
+2026-09-10T09:38:39: 📥 Downloading results from: https://storage.googleapis.com/shopify-tiers-assets-prod-us-east1/bulk-operation-outputs/ec38eb3911626fd45482b391d2e5?GoogleAccessId=assets-us-prod%40shopify-tiers.iam.gserviceaccount.com&Expires=1789609115&Signature=gX69EU%2F09IC8zEDkYapiei9GMcYc1L846a48RpCc1i7NRNKXho8kaAR60CXOA6s12y%2F8RVLlgu4x%2BqpHi535t%2FlpQTjdDSmOujpNln3r8pP4RC6Kb7MCkfS9XSB4B2bmnTZQejPoMVh36c9cJGVMjk%2FxMthvxbnK4%2FzCFMkfpvSc7MwSnd6DEgAKzlA6%2BTyt3tA%2FKTmpbUe0F6DLGsUoZ9Zjl%2BdXjrPe0J58ysmTtd4TyWBjRVcCGVjE4EvnJvZLyHssKpRLAAmKp%2FH%2Bi7aF%2FdfF4CayBSl8r2olJl4S0P7hbsYl5AW8s7OLBpi5sliAgnUiwU2qgO%2BMVoSDuU%2FZAA%3D%3D&response-content-disposition=attachment%3B+filename%3D%22staging-bulk-8434529042657.jsonl%22%3B+filename%2A%3DUTF-8%27%27staging-bulk-8434529042657.jsonl&response-content-type=application%2Fjsonl
+2026-09-10T09:38:41: ✅ Results saved to: C:\Users\user\Desktop\shopify-inventory-syncer\output\results_shopify_inventory_set_input.jsonl
+2026-09-10T09:38:41: 
+2026-09-10T09:38:41: 🎉 Processing complete.
+2026-09-10T09:38:41: ✓ Completed: node --env-file=.env ./js/update-inventory.js
+2026-09-10T09:38:41: 
+2026-09-10T09:38:41: ==================================================
+2026-09-10T09:38:41: ✓ All commands completed successfully!

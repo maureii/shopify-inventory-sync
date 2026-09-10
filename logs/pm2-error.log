@@ -1,0 +1,30 @@
+2026-09-10T09:02:41: [FAILED] 10100 | CAGAYAN: Failed to connect to 192.161.3.3:1433 - Could not connect (sequence)
+2026-09-10T09:02:41: [FAILED] 10200 | ILIGAN: Failed to connect to 192.161.3.41:1433 - Could not connect (sequence)
+2026-09-10T09:02:41: [FAILED] 10300 | VALENCIA: Failed to connect to 192.161.3.48:1433 - Could not connect (sequence)
+2026-09-10T09:02:41: [FAILED] 10400 | BUTUAN: Failed to connect to 192.161.3.21:1433 - Could not connect (sequence)
+2026-09-10T09:02:41: [FAILED] 10500 | PAGADIAN: Failed to connect to 192.161.3.45:1433 - Could not connect (sequence)
+2026-09-10T09:02:41: [FAILED] 10700 | SURIGAO: Failed to connect to 192.161.3.29:1433 - Could not connect (sequence)
+2026-09-10T09:02:41: [FAILED] 11000 | OSMENA: Failed to connect to 192.161.3.4:1433 - Could not connect (sequence)
+2026-09-10T09:02:41: [FAILED] 11200 | CARMEN: Failed to connect to 192.161.3.5:1433 - Could not connect (sequence)
+2026-09-10T09:02:41: [FAILED] 11300 | CAPISTRANO: Failed to connect to 192.161.3.6:1433 - Could not connect (sequence)
+2026-09-10T09:02:41: [FAILED] 11400 | PALAO: Failed to connect to 192.161.3.42:1433 - Could not connect (sequence)
+2026-09-10T09:02:41: [FAILED] 11500 | CEBU: Failed to connect to 192.161.3.32:1433 - Could not connect (sequence)
+2026-09-10T09:02:41: [FAILED] 12000 | TAYTAY: Failed to connect to 192.161.3.40:1433 - Could not connect (sequence)
+2026-09-10T09:02:41: [FAILED] 12100 | CQLC: Failed to connect to 192.161.2.81:1433 - Could not connect (sequence)
+2026-09-10T09:02:41: [FAILED] 12400 | TALISAY: Failed to connect to 192.161.3.33:1433 - Could not connect (sequence)
+2026-09-10T09:02:41: [FAILED] 12700 | ZAMBOANGA: Failed to connect to 192.161.3.47:1433 - Could not connect (sequence)
+2026-09-10T09:02:41: [FAILED] 13000 | PARKWAY: Failed to connect to 192.161.3.31:1433 - Could not connect (sequence)
+2026-09-10T09:02:41: [FAILED] 13400 | CENTRALE: Failed to connect to 192.161.3.28:1433 - Could not connect (sequence)
+2026-09-10T09:02:41: [FAILED] 13600 | CARCAR: Failed to connect to 192.161.3.34:1433 - Could not connect (sequence)
+2026-09-10T09:02:41: [FAILED] 14000 | CABADBARAN: Failed to connect to 192.161.3.25:1433 - Could not connect (sequence)
+2026-09-10T09:02:41: [FAILED] 14300 | TOLEDO: Failed to connect to 192.161.3.66:1433 - Could not connect (sequence)
+2026-09-10T09:02:41: [ERROR] Input file contains no array records.
+2026-09-10T09:02:42: 
+2026-09-10T09:02:42: 💥 Critical Error: Failed to create upload target for shopify_inventory_set_input.jsonl: {"errors":{"message":"GraphQL Client: fetch failed"}}
+2026-09-10T09:02:42: ✗ Failed: node --env-file=.env ./js/update-inventory.js
+2026-09-10T09:02:42: node --env-file=.env ./js/update-inventory.js exited with code 1
+2026-09-10T09:02:42: Fatal error: Error: node --env-file=.env ./js/update-inventory.js exited with code 1
+2026-09-10T09:02:42:     at ChildProcess.<anonymous> (file:///C:/Users/user/Desktop/shopify-inventory-syncer/index.js:34:19)
+2026-09-10T09:02:42:     at ChildProcess.emit (node:events:509:20)
+2026-09-10T09:02:42:     at maybeClose (node:internal/child_process:1108:16)
+2026-09-10T09:02:42:     at ChildProcess._handle.onexit (node:internal/child_process:305:5)

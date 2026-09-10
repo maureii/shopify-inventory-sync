@@ -1,0 +1,140 @@
+[
+  {
+    "storeCode": "10100",
+    "storeName": "CAGAYAN",
+    "sold_items": [
+      {
+        "StoreID": "10100",
+        "ItemCode": "17266",
+        "SoldCount": 1
+      }
+    ],
+    "reversals": []
+  },
+  {
+    "storeCode": "10200",
+    "storeName": "ILIGAN",
+    "sold_items": [],
+    "reversals": []
+  },
+  {
+    "storeCode": "10300",
+    "storeName": "VALENCIA",
+    "sold_items": [],
+    "reversals": []
+  },
+  {
+    "storeCode": "10400",
+    "storeName": "BUTUAN",
+    "sold_items": [],
+    "reversals": []
+  },
+  {
+    "storeCode": "10500",
+    "storeName": "PAGADIAN",
+    "sold_items": [],
+    "reversals": []
+  },
+  {
+    "storeCode": "10700",
+    "storeName": "SURIGAO",
+    "sold_items": [],
+    "reversals": []
+  },
+  {
+    "storeCode": "11000",
+    "storeName": "OSMENA",
+    "sold_items": [],
+    "reversals": []
+  },
+  {
+    "storeCode": "11200",
+    "storeName": "CARMEN",
+    "sold_items": [],
+    "reversals": []
+  },
+  {
+    "storeCode": "11300",
+    "storeName": "CAPISTRANO",
+    "sold_items": [],
+    "reversals": []
+  },
+  {
+    "storeCode": "11400",
+    "storeName": "PALAO",
+    "sold_items": [
+      {
+        "StoreID": "11400",
+        "ItemCode": "16445",
+        "SoldCount": 1
+      }
+    ],
+    "reversals": []
+  },
+  {
+    "storeCode": "11500",
+    "storeName": "CEBU",
+    "sold_items": [],
+    "reversals": []
+  },
+  {
+    "storeCode": "12000",
+    "storeName": "TAYTAY",
+    "sold_items": [],
+    "reversals": []
+  },
+  {
+    "storeCode": "12100",
+    "storeName": "CQLC",
+    "sold_items": [],
+    "reversals": []
+  },
+  {
+    "storeCode": "12400",
+    "storeName": "TALISAY",
+    "sold_items": [],
+    "reversals": []
+  },
+  {
+    "storeCode": "12700",
+    "storeName": "ZAMBOANGA",
+    "sold_items": [],
+    "reversals": []
+  },
+  {
+    "storeCode": "13000",
+    "storeName": "PARKWAY",
+    "sold_items": [],
+    "reversals": []
+  },
+  {
+    "storeCode": "13400",
+    "storeName": "CENTRALE",
+    "sold_items": [],
+    "reversals": []
+  },
+  {
+    "storeCode": "13600",
+    "storeName": "CARCAR",
+    "sold_items": [
+      {
+        "StoreID": "13600",
+        "ItemCode": "17204",
+        "SoldCount": 1
+      }
+    ],
+    "reversals": []
+  },
+  {
+    "storeCode": "14000",
+    "storeName": "CABADBARAN",
+    "sold_items": [],
+    "reversals": []
+  },
+  {
+    "storeCode": "14300",
+    "storeName": "TOLEDO",
+    "sold_items": [],
+    "reversals": []
+  }
+]
