@@ -8,6 +8,7 @@ export const GET_REVERSALS = `
     WHERE TRY_CAST(e.ItemCode AS INT) > 1000
       AND e.GLDescription IN ('CASH SALES', 'INSTALLMENT SALES', 'REGULAR SALES')
       AND (e.InvoiceNo LIKE 'SI%-R' OR e.InvoiceNo LIKE 'CI%-R')
+      AND e.Quantity < 0
       AND TRY_CAST(e.CreatedDate AS DATETIME) >= t.TodayDate
       AND TRY_CAST(e.CreatedDate AS DATETIME) < DATEADD(DAY, 1, t.TodayDate)
   )

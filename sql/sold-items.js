@@ -12,6 +12,7 @@ export const GET_SOLD_ITEMS = `
       AND e.EntryDate >= t.TodayDate
       AND e.EntryDate < DATEADD(DAY, 1, t.TodayDate)
       AND e.IsVoid = 0
+      AND e.Quantity > 0
   )
   SELECT
     StoreID,
